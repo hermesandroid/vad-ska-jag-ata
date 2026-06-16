@@ -1,0 +1,81 @@
+
+📁 Sallad: generating 22...
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Nybörjarsallad med rökt lax och avokado",
+"category": "Sallad",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": "1",
+    "title": "Klassisk Grönsallad med Äppelcidervinägerdressing",
+    "category
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grönkålssallad med rostade rotfrukter och äppelcidervinägerdressing",
+"catego
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Klassisk Västkustsallad med Räkor och Avokado",
+"category": "Sallad",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Nyttig rödbetssallad med getost och valnötter",
+"category": "Sallad",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Klassisk Svartrotssallad med Äpple och Valnötter  ✗ Unterminated string star  ✗ JSON parse failed: [
+{
+"id": 1,
+"  ✗ Unterminated string starting at: line 205 column 7 (char 6659)
+  ✗ Unterminated string starting at: line 227 column 7 (char 6660)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6453)
+  +10 (total AI:10, all:676)
+  ✗ Unterminated string starting at: line 69 column 52 (char 6184)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6408)
+  ✗ Unterminated string starting at: line 88 column 21 (char 5969)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5879)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5602)
+  ✗ Unterminated string starting at: line 84 column 14 (char 6268)
+  ✗ Unterminated string starting at: line 89 column 119 (char 6383)
+  ✗ Unterminated string starting at: line 99 column 49 (char 6124)
+  ✗ Unterminated string starting at: line 215 column 21 (char 6476)
+ry": "Sallad",
+"area": "Swedish"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig rödbetssallad med getost och valnötter",
+"category": "Sallad",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk jordgubbssallad med feta och mynta",
+"category": "Sallad",
+"area": "Sw
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grönkålssallad med rostade rotfrukter och getost",
+"category": "Sallad",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Grönkålssallad med äpple och valnötter",
+    "category": "Sallad",
+
+  ✗ JSON parse failed: [
+  {
+    "id": "swe_sal_01",
+    "title": "Nybörjarsallad med rökt lax och dill",
+    "category": "
+  +10 (total AI:20, all:686)
