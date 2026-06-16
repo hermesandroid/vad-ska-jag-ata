@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Vad ska jag äta?</title>
+<link rel="manifest" href="manifest.json">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #07070d;
+  color: #e8e8ec;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Animated bg */
+.bg{
+  position:fixed;inset:0;z-index:0;overflow:hidden;
+}
+.bg span{
+  position:absolute;
+  border-radius:50%;
+  filter:blur(80px);
+  opacity:.15;
+  animation:float 20s infinite ease-in-out;
+}
+.bg span:nth-child(1){width:300px;height:300px;background:#ff6b6b;top:-100px;left:10%}
+.bg span:nth-child(2){width:250px;height:250px;background:#ffd93d;top:50%;right:-50px;animation-delay:-7s}
+.bg span:nth-child(3){width:200px;height:200px;background:#6bcb77;bottom:-80px;left:30%;animation-delay:-14s}
+
+@keyframes float{
+  0%,100%{transform:translate(0,0) scale(1)}
+  33%{transform:translate(30px,-40px) scale(1.1)}
+  66%{transform:translate(-20px,20px) scale(.9)}
+}
+
+.app{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:0 18px}
+
+/* Header */
+.header{
+  text-align:center;
+  padding:32px 0 20px;
+}
+.header .icon{
+  font-size:3em;
+  display:block;
+  animation:bounce 2s infinite;
+  margin-bottom:8px;
+}
+@keyframes bounce{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-8px)}
+}
+.header h1{
+  font-size:1.7em;
+  font-weight:700;
+  background:linear-gradient(135deg, #ff6b6b, #ffd93d, #6bcb77);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.header p{color:#666;font-size:.88em;margin-top:4px}
+
+/* Chips */
+.chips{
+  display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;
+}
+.chip{
+  padding:8px 16px;
+  border-radius:24px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  font-size:.82em;
+  cursor:pointer;
+  transition:all .25s;
+  backdrop-filter:blur(10px);
+  white-space:nowrap;
+}
+.chip:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.15)}
+.chip:active{background:#ff6b6b;border-color:#ff6b6b;color:#fff;transform:scale(.95)}
+
+/* Input */
+.input-row{
+  display:flex;gap:8px;
+}
+.input-wrap{
+  flex:1;position:relative;
+}
+.input-wrap input{
+  width:100%;
+  padding:16px 20px;
+  border:2px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  background:rgba(255,255,255,.03);
+  color:#fff;
+  font-size:1em;
+  font-family:inherit;
+  outline:none;
+  transition:all .3s;
+  backdrop-filter:blur(10px);
+}
+.input-wrap input:focus{
+  border-color:#ff6b6b;
+  background:rgba(255,255,255,.06);
+  box-shadow:0 0 30px rgba(255,107,107,.1);
+}
+.input-wrap input::placeholder{color:#444}
+
+/* Buttons */
+.btn{
+  padding:16px 20px;
+  border:none;
+  border-radius:20px;
+  font-size:1em;
+  font-weight:600;
+  font-family:inherit;
+  cursor:pointer;
+  transition:all .25s;
+  display:flex;align-items:center;gap:6px;
+}
+.btn:active{transform:scale(.94)}
+.btn-voice{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  color:#ffd93d;
+  font-size:1.3em;
+  backdrop-filter:blur(10px);
+}
+.btn-voice.listening{
+  background:#ff6b6b;border-color:#ff6b6b;color:#fff;
+  animation:pulse 1.2s infinite;
+}
+@keyframes pulse{
+  0%,100%{box-shadow:0 0 0 0 rgba(255,107,107,.5)}
+  50%{box-shadow:0 0 0 14px rgba(255,107,107,0)}
+}
+.btn-cook{
+  background:linear-gradient(135deg, #ff6b6b, #ee5a24);
+  color:#fff;
+  box-shadow:0 4px 20px rgba(255,107,107,.3);
+}
+.btn-cook:hover{box-shadow:0 6px 30px rgba(255,107,107,.4)}
+
+.status{
+  text-align:center;
+  color:#ffd93d;
+  font-size:.82em;
+  margin:12px 0;
+  min-height:22px;
+}
+
+/* Recipe card */
+.recipe{
+  margin-top:8px;
+  border-radius:24px;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.06);
+  padding:24px;
+  backdrop-filter:blur(20px);
+  animation:slideUp .4s ease;
+  line-height:1.7;
+}
+@keyframes slideUp{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.recipe h2{
+  font-size:1.3em;
+  color:#ffd93d;
+  margin-bottom:12px;
+  padding-bottom:12px;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.recipe h3{
+  font-size:.95em;
+  color:#6bcb77;
+  margin:16px 0 8px;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+.recipe .meta{
+  display:flex;gap:16px;
+  margin-bottom:16px;
+  flex-wrap:wrap;
+}
+.recipe .meta span{
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:.8em;
+  font-weight:600;
+}
+.meta .time{background:rgba(255,107,107,.15);color:#ff6b6b}
+.meta .diff{background:rgba(255,217,61,.1);color:#ffd93d}
+
+.placeholder{
+  text-align:center;
+  padding:50px 20px;
+  color:#444;
+}
+.placeholder .emoji{font-size:3em;margin-bottom:12px;display:block}
+
+/* Loading */
+.loading-wrap{
+  display:flex;flex-direction:column;align-items:center;
+  padding:40px 20px;gap:16px;
+}
+.spinner{
+  width:36px;height:36px;
+  border:3px solid rgba(255,255,255,.06);
+  border-top-color:#ff6b6b;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{color:#666;font-size:.9em}
+
+/* Error */
+.error{
+  text-align:center;padding:30px;
+  color:#ff6b6b;
+}
+.error small{color:#666;display:block;margin-top:8px}
+
+footer{
+  text-align:center;padding:30px;color:#333;font-size:.75em;
+  position:relative;z-index:1;
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <span></span><span></span><span></span>
+</div>
+
+<div class="app">
+  <div class="header">
+    <span class="icon">🍳</span>
+    <h1>Vad ska jag äta?</h1>
+    <p>Skriv ingredienser — AI hittar på recept</p>
+  </div>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="input-row">
+    <div class="input-wrap">
+      <input id="ingredients" placeholder="t.ex. ägg, ost, lök, tomat..."
+             autocomplete="off" autofocus>
+    </div>
+    <button class="btn btn-voice" id="voiceBtn" title="Säg ingredienser">🎤</button>
+    <button class="btn btn-cook" id="goBtn">✨ Laga</button>
+  </div>
+
+  <div class="status" id="status"></div>
+  <div id="result">
+    <div class="placeholder">
+      <span class="emoji">👨‍🍳</span>
+      Vad har du i kylskåpet?
+    </div>
+  </div>
+
+  <footer>AI · DeepSeek · Hermes</footer>
+</div>
+
+<script>
+const ingEl = document.getElementById('ingredients');
+const goBtn = document.getElementById('goBtn');
+const voiceBtn = document.getElementById('voiceBtn');
+const resultEl = document.getElementById('result');
+const statusEl = document.getElementById('status');
+const chipsEl = document.getElementById('chips');
+
+const quickIdeas = [
+  {icon:'🥚', text:'ägg, ost'},
+  {icon:'🍗', text:'kyckling, ris'},
+  {icon:'🐟', text:'tonfisk, pasta'},
+  {icon:'🍄', text:'svamp, lök'},
+  {icon:'🍅', text:'tomat, basilika'},
+  {icon:'🥔', text:'potatis, lök'},
+  {icon:'🥞', text:'mjöl, mjölk'},
+  {icon:'🥒', text:'zucchini, ost'}
+];
+chipsEl.innerHTML = quickIdeas.map(i =>
+  `<span class="chip" onclick="ingEl.value='${i.text}';cook()">${i.icon} ${i.text}</span>`
+).join('');
+
+// Voice
+let recognition = null;
+if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.lang = 'sv-SE';
+  recognition.interimResults = false;
+  recognition.onresult = e => {
+    ingEl.value = e.results[0][0].transcript;
+    voiceBtn.classList.remove('listening');
+    cook();
+  };
+  recognition.onerror = () => {
+    voiceBtn.classList.remove('listening');
+    statusEl.textContent = 'Hörde inte, försök igen';
+  };
+  recognition.onend = () => voiceBtn.classList.remove('listening');
+}
+
+voiceBtn.addEventListener('click', () => {
+  if (!recognition) { statusEl.textContent = 'Webbläsaren stöder inte röst'; return; }
+  if (voiceBtn.classList.contains('listening')) { recognition.stop(); return; }
+  voiceBtn.classList.add('listening');
+  statusEl.textContent = '🎙️ Lyssnar...';
+  recognition.start();
+});
+
+goBtn.addEventListener('click', cook);
+ingEl.addEventListener('keydown', e => { if (e.key === 'Enter') cook(); });
+
+function showLoading(){
+  resultEl.innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Hittar på recept...</div></div>';
+}
+function showPlaceholder(){
+  resultEl.innerHTML = '<div class="placeholder"><span class="emoji">👨‍🍳</span>Vad har du i kylskåpet?</div>';
+}
+function showError(msg){
+  resultEl.innerHTML = `<div class="error">😕 ${msg}<small>Försök igen</small></div>`;
+}
+function showRecipe(html){
+  resultEl.innerHTML = `<div class="recipe">${html}</div>`;
+}
+
+async function cook() {
+  const ingredients = ingEl.value.trim();
+  if (!ingredients) { statusEl.textContent = 'Skriv minst en ingrediens'; return; }
+  statusEl.textContent = '';
+  showLoading();
+
+  try {
+    const resp = await fetch('/api/cook', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ingredients})
+    });
+    const data = await resp.json();
+    if (!resp.ok || data.error) throw new Error(data.error || 'Server error');
+    showRecipe(formatRecipe(data.recipe));
+    statusEl.textContent = '';
+  } catch(e) {
+    showError(e.message);
+  }
+}
+
+function formatRecipe(text) {
+  return text
+    .replace(/### (.*)/g, '<h2>$1</h2>')
+    .replace(/## (.*)/g, '<h3>$1</h3>')
+    .replace(/\*\*Tid:\*\* (.*)/g, '<div class="meta"><span class="time">⏱ $1</span>')
+    .replace(/\*\*Svårighet:\*\* (.*)/g, '<span class="diff">📊 $1</span></div>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
+}
+</script>
+</body>
+</html>
