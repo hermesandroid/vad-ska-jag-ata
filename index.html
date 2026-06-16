@@ -234,7 +234,7 @@ goBtn.addEventListener('click',cook);ingEl.addEventListener('keydown',e=>{if(e.k
 function showLoading(){resultEl.innerHTML='<div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Hittar på recept...</div></div>'}
 function showError(msg){resultEl.innerHTML=`<div class="error">😕 ${msg}<small>Försök igen</small></div>`}
 
-let lastIngredients='', lastTitle='', lastFullRecipe='';
+let lastIngredients='', lastTitle='', lastFullRecipe='', seenTitles=[];
 function showRecipe(html){const favs=getFavs();const isFav=favs.some(f=>f.title===lastTitle);const favBtn=`<button class="btn-fav${isFav?' saved':''}" onclick="toggleFav(event)">${isFav?'❤️ Sparad':'🤍 Spara'}</button>`;resultEl.innerHTML=`<div class="recipe">${html}<div style="display:flex;gap:8px;flex-wrap:wrap">${favBtn}<button class="btn-next" onclick="nextRecipe()">🔄 Nästa recept</button></div></div>`;document.getElementById('result').scrollIntoView({behavior:'smooth'})}
 function parseTitle(html){const m=html.match(/<h2>(.*?)<\/h2>/);return m?m[1]:''}
 function getFavs(){try{return JSON.parse(localStorage.getItem('favorites')||'[]')}catch{return[]}}
@@ -244,7 +244,7 @@ function renderFavs(){const f=getFavs();const el=document.getElementById('favori
 function delFav(i){const f=getFavs();f.splice(i,1);saveFavs(f);renderFavs()}
 function nextRecipe(){if(!lastIngredients)return;ingEl.value=lastIngredients;cook(true)}
 
-async function cook(reRoll=false){const ingredients=ingEl.value.trim();if(!ingredients){statusEl.textContent='Skriv minst en ingrediens';return}lastIngredients=ingredients;statusEl.textContent=reRoll?'Letar efter ett annat recept...':'';showLoading();try{const resp=await fetch('/api/cook',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ingredients,re_roll:reRoll})});const data=await resp.json();if(!resp.ok||data.error)throw new Error(data.error||'Server error');const html=formatRecipe(data.recipe);lastTitle=parseTitle(html);lastFullRecipe=data.recipe;showRecipe(html);renderFavs();statusEl.textContent=''}catch(e){showError(e.message)}}
+async function cook(reRoll=false){const ingredients=ingEl.value.trim();if(!ingredients){statusEl.textContent='Skriv minst en ingrediens';return}if(!reRoll){seenTitles=[];lastIngredients=ingredients}else{lastIngredients=ingredients}statusEl.textContent=reRoll?'Letar efter ett annat recept...':'';showLoading();try{const body={ingredients,re_roll:reRoll};if(reRoll&&seenTitles.length)body.seen=seenTitles;const resp=await fetch('/api/cook',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const data=await resp.json();if(!resp.ok||data.error)throw new Error(data.error||'Server error');const html=formatRecipe(data.recipe);lastTitle=parseTitle(html);lastFullRecipe=data.recipe;seenTitles.push(lastTitle);showRecipe(html);renderFavs();statusEl.textContent=''}catch(e){showError(e.message)}}
 function formatRecipe(t){return t.replace(/### (.*)/g,'<h2>$1</h2>').replace(/## (.*)/g,'<h3>$1</h3>').replace(/\*\*Tid:\*\* (.*)/g,'<div class="meta-row"><span class="time">⏱ $1</span>').replace(/\*\*Svårighet:\*\* (.*)/g,'<span class="diff">📊 $1</span></div>').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}
 
 // === BROWSE MODE ===

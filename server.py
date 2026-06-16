@@ -28,8 +28,14 @@ class Handler(SimpleHTTPRequestHandler):
             body = json.loads(self.rfile.read(length))
             ingredients = body.get("ingredients", "")
             re_roll = body.get("re_roll", False)
+            seen = body.get("seen", [])
 
-            rr = "\nGe mig ett HELT ANNAT recept den här gången — inte samma som tidigare." if re_roll else ""
+            rr = ""
+            if re_roll and seen:
+                rr = f"\nVIKTIGT: Generera ett HELT ANNAT recept. INTE något av dessa: {', '.join(seen)}. Var kreativ och hitta på något nytt."
+            elif re_roll:
+                rr = "\nGe mig ett HELT ANNAT recept — inte samma som tidigare."
+            
             prompt = f"""Jag har dessa ingredienser: {ingredients}
 
 Hitta på ETT enkelt recept. Formatera:
