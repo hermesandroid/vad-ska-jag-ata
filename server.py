@@ -27,7 +27,9 @@ class Handler(SimpleHTTPRequestHandler):
             length = int(self.headers.get("Content-Length", 0))
             body = json.loads(self.rfile.read(length))
             ingredients = body.get("ingredients", "")
+            re_roll = body.get("re_roll", False)
 
+            rr = "\nGe mig ett HELT ANNAT recept den här gången — inte samma som tidigare." if re_roll else ""
             prompt = f"""Jag har dessa ingredienser: {ingredients}
 
 Hitta på ETT enkelt recept. Formatera:
@@ -44,7 +46,7 @@ Hitta på ETT enkelt recept. Formatera:
 
 **Tips:** en mening
 
-Om en viktig ingrediens saknas, nämn det. Svara på svenska."""
+Om en viktig ingrediens saknas, nämn det. Svara på svenska.{rr}"""
 
             try:
                 data = json.dumps({
