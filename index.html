@@ -52,6 +52,16 @@ body{
 .cat-chip:hover{color:#fff;border-color:rgba(255,255,255,.2)}
 .cat-chip.active{background:rgba(255,107,107,.15);border-color:#ff6b6b;color:#ff6b6b}
 
+.healthy-toggle{display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px 16px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}
+.healthy-toggle span{font-size:.85em;color:#888}
+.healthy-toggle .switch{position:relative;width:48px;height:26px}
+.healthy-toggle .switch input{opacity:0;width:0;height:0}
+.healthy-toggle .slider{position:absolute;cursor:pointer;inset:0;background:rgba(255,255,255,.08);border-radius:26px;transition:.3s}
+.healthy-toggle .slider:before{content:'';position:absolute;height:20px;width:20px;left:3px;bottom:3px;background:#888;border-radius:50%;transition:.3s}
+.healthy-toggle input:checked+.slider{background:rgba(107,203,119,.3)}
+.healthy-toggle input:checked+.slider:before{background:#6bcb77;transform:translateX(22px)}
+.healthy-badge{display:inline-block;padding:3px 8px;border-radius:8px;background:rgba(107,203,119,.15);color:#6bcb77;font-size:.68em;font-weight:600;margin-left:6px}
+
 .recipes-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
 .recipe-card{
   border-radius:18px;overflow:hidden;background:rgba(255,255,255,.03);
@@ -183,6 +193,13 @@ footer{text-align:center;padding:30px;color:#333;font-size:.75em;position:relati
     <div class="browse-search">
       <input id="browseSearch" placeholder="Sök recept..." oninput="filterRecipes()">
     </div>
+    <label class="healthy-toggle">
+      <span>🥗 Bara hälsosamma</span>
+      <div class="switch">
+        <input type="checkbox" id="healthySwitch" onchange="filterRecipes()">
+        <span class="slider"></span>
+      </div>
+    </label>
     <div class="cat-filters" id="catFilters"></div>
     <div class="recipes-grid" id="recipesGrid">
       <div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Laddar recept...</div></div>
@@ -236,7 +253,10 @@ async function loadRecipes(){try{const r=await fetch('recipes.json');allRecipes=
 
 function renderCategories(){document.getElementById('catFilters').innerHTML='<span class="cat-chip active" onclick="setCat(\'\')">Alla</span>'+allCategories.map(c=>`<span class="cat-chip" onclick="setCat('${c}')">${c}</span>`).join('')}
 function setCat(cat){activeCat=cat;document.querySelectorAll('.cat-chip').forEach(el=>el.classList.toggle('active',el.textContent===cat||(cat===''&&el.textContent==='Alla')));filterRecipes()}
-function filterRecipes(){const q=document.getElementById('browseSearch').value.toLowerCase();filteredRecipes=allRecipes.filter(r=>(!activeCat||r.category===activeCat)&&(!q||r.title.toLowerCase().includes(q)||(r.tags||'').toLowerCase().includes(q)));renderGrid()}
+function filterRecipes(){const q=document.getElementById('browseSearch').value.toLowerCase();const healthyOnly=document.getElementById('healthySwitch').checked;filteredRecipes=allRecipes.filter(r=>(!activeCat||r.category===activeCat)&&(!q||r.title.toLowerCase().includes(q)||(r.tags||'').toLowerCase().includes(q))&&(!healthyOnly||isHealthy(r)));renderGrid()}
+
+const HEALTHY_KEYWORDS=['salad','sallad','soppa','soup','grill','bake','steam','wok','vegetarian','vegan','gluten','low','light','fresh','grön','fisk','fish','chicken','kyckling','kalkon','turkey','quinoa','linser','lentil','bönor','bean','tofu','tempeh','avocado','spenat','spinach','broccoli','lax','salmon','tonfisk','tuna','råris','brown rice','fullkorn','whole','grekisk','greek','medelhav','mediterranean','morot','carrot','sötpotatis','sweet potato','zucchini'];
+function isHealthy(r){const txt=(r.title+' '+(r.tags||'')+' '+r.category).toLowerCase();return HEALTHY_KEYWORDS.some(k=>txt.includes(k))}
 
 function renderGrid(){const grid=document.getElementById('recipesGrid');if(!filteredRecipes.length){grid.innerHTML='<div class="placeholder"><span class="emoji">🔍</span>Inga recept hittades</div>';return}grid.innerHTML=filteredRecipes.slice(0,200).map(r=>`<div class="recipe-card" onclick="showDetail('${r.id}')"><img src="${r.thumb}/preview" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect fill=%22%231a1a2e%22 width=%22200%22 height=%22150%22/><text fill=%22%23555%22 x=%22100%22 y=%2280%22 text-anchor=%22middle%22 font-size=%2230%22>🍽️</text></svg>'"><div class="info"><div class="title">${r.title}</div><div class="cat">${r.category} · ${r.area}</div></div></div>`).join('')}
 
