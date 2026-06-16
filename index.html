@@ -7,473 +7,241 @@
 <link rel="manifest" href="manifest.json">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
 *{margin:0;padding:0;box-sizing:border-box}
 
 body{
-  font-family: 'Inter', system-ui, sans-serif;
-  background: #07070d;
-  color: #e8e8ec;
-  min-height: 100vh;
-  overflow-x: hidden;
+  font-family:'Inter',system-ui,sans-serif;
+  background:#07070d;color:#e8e8ec;min-height:100vh;overflow-x:hidden;
 }
 
-/* Animated bg */
-.bg{
-  position:fixed;inset:0;z-index:0;overflow:hidden;
-}
-.bg span{
-  position:absolute;
-  border-radius:50%;
-  filter:blur(80px);
-  opacity:.15;
-  animation:float 20s infinite ease-in-out;
-}
+.bg{position:fixed;inset:0;z-index:0;overflow:hidden}
+.bg span{position:absolute;border-radius:50%;filter:blur(80px);opacity:.15;animation:float 20s infinite ease-in-out}
 .bg span:nth-child(1){width:300px;height:300px;background:#ff6b6b;top:-100px;left:10%}
 .bg span:nth-child(2){width:250px;height:250px;background:#ffd93d;top:50%;right:-50px;animation-delay:-7s}
 .bg span:nth-child(3){width:200px;height:200px;background:#6bcb77;bottom:-80px;left:30%;animation-delay:-14s}
-
-@keyframes float{
-  0%,100%{transform:translate(0,0) scale(1)}
-  33%{transform:translate(30px,-40px) scale(1.1)}
-  66%{transform:translate(-20px,20px) scale(.9)}
-}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(30px,-40px) scale(1.1)}66%{transform:translate(-20px,20px) scale(.9)}}
 
 .app{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:0 18px}
 
-/* Header */
-.header{
-  text-align:center;
-  padding:32px 0 20px;
-}
-.header .icon{
-  font-size:3em;
-  display:block;
-  animation:bounce 2s infinite;
-  margin-bottom:8px;
-}
-@keyframes bounce{
-  0%,100%{transform:translateY(0)}
-  50%{transform:translateY(-8px)}
-}
-.header h1{
-  font-size:1.7em;
-  font-weight:700;
-  background:linear-gradient(135deg, #ff6b6b, #ffd93d, #6bcb77);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-}
+.header{text-align:center;padding:32px 0 20px}
+.header .icon{font-size:3em;display:block;animation:bounce 2s infinite;margin-bottom:8px}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.header h1{font-size:1.7em;font-weight:700;background:linear-gradient(135deg,#ff6b6b,#ffd93d,#6bcb77);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .header p{color:#666;font-size:.88em;margin-top:4px}
 
-/* Chips */
-.chips{
-  display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;
+/* Tabs */
+.tabs{display:flex;margin-bottom:16px;gap:4px}
+.tab{flex:1;padding:12px;text-align:center;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);color:#666;font-size:.85em;font-weight:600;cursor:pointer;transition:all .25s}
+.tab.active{background:rgba(255,107,107,.1);border-color:#ff6b6b;color:#ff6b6b}
+.tab:hover:not(.active){color:#999}
+
+.tab-content{display:none}
+.tab-content.active{display:block}
+
+/* Browse */
+.browse-search{margin-bottom:14px}
+.browse-search input{
+  width:100%;padding:14px 18px;border-radius:16px;border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.03);color:#fff;font-size:.95em;font-family:inherit;outline:none
 }
-.chip{
-  padding:8px 16px;
-  border-radius:24px;
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.08);
-  font-size:.82em;
-  cursor:pointer;
-  transition:all .25s;
-  backdrop-filter:blur(10px);
-  white-space:nowrap;
+.browse-search input:focus{border-color:#ff6b6b}
+.browse-search input::placeholder{color:#444}
+
+.cat-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.cat-chip{padding:6px 14px;border-radius:20px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);font-size:.78em;cursor:pointer;color:#888;transition:all .2s}
+.cat-chip:hover{color:#fff;border-color:rgba(255,255,255,.2)}
+.cat-chip.active{background:rgba(255,107,107,.15);border-color:#ff6b6b;color:#ff6b6b}
+
+.recipes-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.recipe-card{
+  border-radius:18px;overflow:hidden;background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.06);cursor:pointer;transition:all .2s
 }
+.recipe-card:hover{background:rgba(255,255,255,.06);transform:translateY(-2px)}
+.recipe-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.recipe-card .info{padding:10px 12px}
+.recipe-card .title{font-size:.85em;font-weight:600;line-height:1.3;margin-bottom:4px}
+.recipe-card .cat{font-size:.72em;color:#888}
+
+/* Recipe detail modal */
+.modal-overlay{
+  position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.85);
+  display:flex;align-items:flex-end;justify-content:center;
+  animation:fadeIn .2s
+}
+@keyframes fadeIn{from{opacity:0}}
+.modal{
+  background:#111118;border-radius:28px 28px 0 0;width:100%;max-width:520px;
+  max-height:85vh;overflow-y:auto;padding:24px 20px 40px;
+  animation:slideUp2 .3s ease
+}
+@keyframes slideUp2{from{transform:translateY(100%)}}
+.modal img{width:100%;border-radius:18px;margin-bottom:16px}
+.modal h2{font-size:1.3em;color:#ffd93d;margin-bottom:6px}
+.modal .meta{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.modal .meta span{padding:5px 12px;border-radius:12px;font-size:.78em;font-weight:600}
+.modal .close-btn{
+  position:sticky;top:0;float:right;background:rgba(255,255,255,.06);
+  border:none;color:#fff;font-size:1.2em;width:36px;height:36px;border-radius:18px;
+  cursor:pointer;margin:-8px -8px 8px 8px;z-index:10
+}
+.modal h3{color:#6bcb77;font-size:.9em;margin:16px 0 8px;text-transform:uppercase;letter-spacing:.5px}
+.modal ul{margin-left:16px;color:#ccc;line-height:1.8}
+.modal p{color:#ccc;line-height:1.8;white-space:pre-line}
+
+/* AI mode styles (keep existing) */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{padding:8px 16px;border-radius:24px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);font-size:.82em;cursor:pointer;transition:all .25s;backdrop-filter:blur(10px);white-space:nowrap}
 .chip:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.15)}
 .chip:active{background:#ff6b6b;border-color:#ff6b6b;color:#fff;transform:scale(.95)}
 
-/* Input */
-.input-row{
-  display:flex;gap:8px;
-}
-.input-wrap{
-  flex:1;position:relative;
-}
-.input-wrap input{
-  width:100%;
-  padding:16px 20px;
-  border:2px solid rgba(255,255,255,.08);
-  border-radius:20px;
-  background:rgba(255,255,255,.03);
-  color:#fff;
-  font-size:1em;
-  font-family:inherit;
-  outline:none;
-  transition:all .3s;
-  backdrop-filter:blur(10px);
-}
-.input-wrap input:focus{
-  border-color:#ff6b6b;
-  background:rgba(255,255,255,.06);
-  box-shadow:0 0 30px rgba(255,107,107,.1);
-}
+.input-row{display:flex;gap:8px}
+.input-wrap{flex:1;position:relative}
+.input-wrap input{width:100%;padding:16px 20px;border:2px solid rgba(255,255,255,.08);border-radius:20px;background:rgba(255,255,255,.03);color:#fff;font-size:1em;font-family:inherit;outline:none;transition:all .3s;backdrop-filter:blur(10px)}
+.input-wrap input:focus{border-color:#ff6b6b;background:rgba(255,255,255,.06);box-shadow:0 0 30px rgba(255,107,107,.1)}
 .input-wrap input::placeholder{color:#444}
 
-/* Buttons */
-.btn{
-  padding:16px 20px;
-  border:none;
-  border-radius:20px;
-  font-size:1em;
-  font-weight:600;
-  font-family:inherit;
-  cursor:pointer;
-  transition:all .25s;
-  display:flex;align-items:center;gap:6px;
-}
+.btn{padding:16px 20px;border:none;border-radius:20px;font-size:1em;font-weight:600;font-family:inherit;cursor:pointer;transition:all .25s;display:flex;align-items:center;gap:6px}
 .btn:active{transform:scale(.94)}
-.btn-voice{
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.08);
-  color:#ffd93d;
-  font-size:1.3em;
-  backdrop-filter:blur(10px);
-}
-.btn-voice.listening{
-  background:#ff6b6b;border-color:#ff6b6b;color:#fff;
-  animation:pulse 1.2s infinite;
-}
-@keyframes pulse{
-  0%,100%{box-shadow:0 0 0 0 rgba(255,107,107,.5)}
-  50%{box-shadow:0 0 0 14px rgba(255,107,107,0)}
-}
-.btn-cook{
-  background:linear-gradient(135deg, #ff6b6b, #ee5a24);
-  color:#fff;
-  box-shadow:0 4px 20px rgba(255,107,107,.3);
-}
+.btn-voice{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:#ffd93d;font-size:1.3em;backdrop-filter:blur(10px)}
+.btn-voice.listening{background:#ff6b6b;border-color:#ff6b6b;color:#fff;animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,107,107,.5)}50%{box-shadow:0 0 0 14px rgba(255,107,107,0)}}
+.btn-cook{background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:#fff;box-shadow:0 4px 20px rgba(255,107,107,.3)}
 .btn-cook:hover{box-shadow:0 6px 30px rgba(255,107,107,.4)}
 
-.status{
-  text-align:center;
-  color:#ffd93d;
-  font-size:.82em;
-  margin:12px 0;
-  min-height:22px;
-}
+.status{text-align:center;color:#ffd93d;font-size:.82em;margin:12px 0;min-height:22px}
+.recipe{margin-top:8px;border-radius:24px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);padding:24px;backdrop-filter:blur(20px);animation:slideUp .4s ease;line-height:1.7}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.recipe h2{font-size:1.3em;color:#ffd93d;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06)}
+.recipe h3{font-size:.95em;color:#6bcb77;margin:16px 0 8px;text-transform:uppercase;letter-spacing:.5px}
+.recipe .meta-row{display:flex;gap:16px;margin-bottom:16px;flex-wrap:wrap}
+.recipe .meta-row span{padding:6px 14px;border-radius:20px;font-size:.8em;font-weight:600}
+.meta-row .time{background:rgba(255,107,107,.15);color:#ff6b6b}
+.meta-row .diff{background:rgba(255,217,61,.1);color:#ffd93d}
 
-/* Recipe card */
-.recipe{
-  margin-top:8px;
-  border-radius:24px;
-  background:rgba(255,255,255,.03);
-  border:1px solid rgba(255,255,255,.06);
-  padding:24px;
-  backdrop-filter:blur(20px);
-  animation:slideUp .4s ease;
-  line-height:1.7;
-}
-@keyframes slideUp{
-  from{opacity:0;transform:translateY(20px)}
-  to{opacity:1;transform:translateY(0)}
-}
-.recipe h2{
-  font-size:1.3em;
-  color:#ffd93d;
-  margin-bottom:12px;
-  padding-bottom:12px;
-  border-bottom:1px solid rgba(255,255,255,.06);
-}
-.recipe h3{
-  font-size:.95em;
-  color:#6bcb77;
-  margin:16px 0 8px;
-  text-transform:uppercase;
-  letter-spacing:.5px;
-}
-.recipe .meta{
-  display:flex;gap:16px;
-  margin-bottom:16px;
-  flex-wrap:wrap;
-}
-.recipe .meta span{
-  padding:6px 14px;
-  border-radius:20px;
-  font-size:.8em;
-  font-weight:600;
-}
-.meta .time{background:rgba(255,107,107,.15);color:#ff6b6b}
-.meta .diff{background:rgba(255,217,61,.1);color:#ffd93d}
-
-.btn-next{
-  display:block;width:100%;
-  margin-top:20px;padding:14px;
-  border-radius:16px;
-  border:1px solid rgba(255,255,255,.1);
-  background:rgba(255,255,255,.04);
-  color:#aaa;
-  font-family:inherit;font-size:.95em;font-weight:600;
-  cursor:pointer;
-  transition:all .25s;
-  backdrop-filter:blur(10px);
-}
-.btn-next:hover{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.2)}
-.btn-next:active{transform:scale(.97)}
-
-.btn-fav{
-  display:inline-flex;align-items:center;gap:6px;
-  margin-top:12px;padding:10px 18px;
-  border-radius:16px;
-  border:1px solid rgba(255,107,107,.2);
-  background:rgba(255,107,107,.08);
-  color:#ff6b6b;
-  font-family:inherit;font-size:.9em;font-weight:600;
-  cursor:pointer;transition:all .25s;
-}
+.btn-next,.btn-fav{padding:12px 18px;border-radius:16px;font-family:inherit;font-size:.9em;font-weight:600;cursor:pointer;transition:all .25s;margin-top:8px}
+.btn-fav{border:1px solid rgba(255,107,107,.2);background:rgba(255,107,107,.08);color:#ff6b6b}
 .btn-fav:hover{background:rgba(255,107,107,.15)}
 .btn-fav.saved{background:rgba(255,107,107,.2);color:#ff8a8a}
+.btn-next{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);color:#aaa}
+.btn-next:hover{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.2)}
 
 .favorites{margin-top:24px}
 .favorites h3{color:#666;font-size:.85em;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
-.fav-item{
-  padding:14px 18px;margin-bottom:8px;
-  border-radius:16px;
-  background:rgba(255,255,255,.03);
-  border:1px solid rgba(255,255,255,.06);
-  cursor:pointer;transition:all .2s;
-  display:flex;justify-content:space-between;align-items:center;
-}
+.fav-item{padding:14px 18px;margin-bottom:8px;border-radius:16px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);cursor:pointer;transition:all .2s;display:flex;justify-content:space-between;align-items:center}
 .fav-item:hover{background:rgba(255,255,255,.06)}
 .fav-item .name{font-weight:600}
-.fav-item .time{color:#ff6b6b;font-size:.85em}
 .fav-item .del{color:#555;padding:4px 8px;border-radius:8px}
 .fav-item .del:hover{color:#ff6b6b;background:rgba(255,107,107,.1)}
 
-.placeholder{
-  text-align:center;
-  padding:50px 20px;
-  color:#444;
-}
+.placeholder{text-align:center;padding:50px 20px;color:#444}
 .placeholder .emoji{font-size:3em;margin-bottom:12px;display:block}
-
-/* Loading */
-.loading-wrap{
-  display:flex;flex-direction:column;align-items:center;
-  padding:40px 20px;gap:16px;
-}
-.spinner{
-  width:36px;height:36px;
-  border:3px solid rgba(255,255,255,.06);
-  border-top-color:#ff6b6b;
-  border-radius:50%;
-  animation:spin .8s linear infinite;
-}
+.loading-wrap{display:flex;flex-direction:column;align-items:center;padding:40px 20px;gap:16px}
+.spinner{width:36px;height:36px;border:3px solid rgba(255,255,255,.06);border-top-color:#ff6b6b;border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .loading-text{color:#666;font-size:.9em}
-
-/* Error */
-.error{
-  text-align:center;padding:30px;
-  color:#ff6b6b;
-}
+.error{text-align:center;padding:30px;color:#ff6b6b}
 .error small{color:#666;display:block;margin-top:8px}
-
-footer{
-  text-align:center;padding:30px;color:#333;font-size:.75em;
-  position:relative;z-index:1;
-}
+footer{text-align:center;padding:30px;color:#333;font-size:.75em;position:relative;z-index:1}
 </style>
 </head>
 <body>
 
-<div class="bg">
-  <span></span><span></span><span></span>
-</div>
+<div class="bg"><span></span><span></span><span></span></div>
 
 <div class="app">
   <div class="header">
     <span class="icon">🍳</span>
     <h1>Vad ska jag äta?</h1>
-    <p>Skriv ingredienser — AI hittar på recept</p>
+    <p>AI-generera eller bläddra bland recept</p>
   </div>
 
-  <div class="chips" id="chips"></div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('ai')">🤖 AI Generera</div>
+    <div class="tab" onclick="switchTab('browse')">📖 Bläddra</div>
+  </div>
 
-  <div class="input-row">
-    <div class="input-wrap">
-      <input id="ingredients" placeholder="t.ex. ägg, ost, lök, tomat..."
-             autocomplete="off" autofocus>
+  <!-- AI Tab -->
+  <div class="tab-content active" id="tab-ai">
+    <div class="chips" id="chips"></div>
+    <div class="input-row">
+      <div class="input-wrap">
+        <input id="ingredients" placeholder="t.ex. ägg, ost, lök, tomat..." autocomplete="off">
+      </div>
+      <button class="btn btn-voice" id="voiceBtn" title="Säg ingredienser">🎤</button>
+      <button class="btn btn-cook" id="goBtn">✨ Laga</button>
     </div>
-    <button class="btn btn-voice" id="voiceBtn" title="Säg ingredienser">🎤</button>
-    <button class="btn btn-cook" id="goBtn">✨ Laga</button>
+    <div class="status" id="status"></div>
+    <div id="result">
+      <div class="placeholder"><span class="emoji">👨‍🍳</span>Vad har du i kylskåpet?</div>
+    </div>
+    <div class="favorites" id="favorites"></div>
   </div>
 
-  <div class="status" id="status"></div>
-  <div id="result">
-    <div class="placeholder">
-      <span class="emoji">👨‍🍳</span>
-      Vad har du i kylskåpet?
+  <!-- Browse Tab -->
+  <div class="tab-content" id="tab-browse">
+    <div class="browse-search">
+      <input id="browseSearch" placeholder="Sök recept..." oninput="filterRecipes()">
+    </div>
+    <div class="cat-filters" id="catFilters"></div>
+    <div class="recipes-grid" id="recipesGrid">
+      <div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Laddar recept...</div></div>
     </div>
   </div>
-  <div class="favorites" id="favorites"></div>
 
-  <footer>AI · DeepSeek · Hermes</footer>
+  <footer>AI · DeepSeek · TheMealDB · Hermes</footer>
 </div>
 
+<div id="modal"></div>
+
 <script>
-const ingEl = document.getElementById('ingredients');
-const goBtn = document.getElementById('goBtn');
-const voiceBtn = document.getElementById('voiceBtn');
-const resultEl = document.getElementById('result');
-const statusEl = document.getElementById('status');
-const chipsEl = document.getElementById('chips');
-
-const quickIdeas = [
-  {icon:'🥚', text:'ägg, ost'},
-  {icon:'🍗', text:'kyckling, ris'},
-  {icon:'🐟', text:'tonfisk, pasta'},
-  {icon:'🍄', text:'svamp, lök'},
-  {icon:'🍅', text:'tomat, basilika'},
-  {icon:'🥔', text:'potatis, lök'},
-  {icon:'🥞', text:'mjöl, mjölk'},
-  {icon:'🥒', text:'zucchini, ost'}
-];
-chipsEl.innerHTML = quickIdeas.map(i =>
-  `<span class="chip" onclick="ingEl.value='${i.text}';cook()">${i.icon} ${i.text}</span>`
-).join('');
-
-// Voice
-let recognition = null;
-if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  recognition = new SR();
-  recognition.lang = 'sv-SE';
-  recognition.interimResults = false;
-  recognition.onresult = e => {
-    ingEl.value = e.results[0][0].transcript;
-    voiceBtn.classList.remove('listening');
-    cook();
-  };
-  recognition.onerror = () => {
-    voiceBtn.classList.remove('listening');
-    statusEl.textContent = 'Hörde inte, försök igen';
-  };
-  recognition.onend = () => voiceBtn.classList.remove('listening');
+// === TABS ===
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.textContent.includes(name==='ai'?'AI':'Bläddra')));
+  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  if(name==='browse' && !allRecipes.length) loadRecipes();
 }
 
-voiceBtn.addEventListener('click', () => {
-  if (!recognition) { statusEl.textContent = 'Webbläsaren stöder inte röst'; return; }
-  if (voiceBtn.classList.contains('listening')) { recognition.stop(); return; }
-  voiceBtn.classList.add('listening');
-  statusEl.textContent = '🎙️ Lyssnar...';
-  recognition.start();
-});
+// === AI MODE ===
+const ingEl=document.getElementById('ingredients'),goBtn=document.getElementById('goBtn'),voiceBtn=document.getElementById('voiceBtn'),resultEl=document.getElementById('result'),statusEl=document.getElementById('status'),chipsEl=document.getElementById('chips');
 
-goBtn.addEventListener('click', cook);
-ingEl.addEventListener('keydown', e => { if (e.key === 'Enter') cook(); });
-renderFavs();
+const quickIdeas=[{icon:'🥚',text:'ägg, ost'},{icon:'🍗',text:'kyckling, ris'},{icon:'🐟',text:'tonfisk, pasta'},{icon:'🍄',text:'svamp, lök'},{icon:'🍅',text:'tomat, basilika'},{icon:'🥔',text:'potatis, lök'},{icon:'🥞',text:'mjöl, mjölk'},{icon:'🥒',text:'zucchini, ost'}];
+chipsEl.innerHTML=quickIdeas.map(i=>`<span class="chip" onclick="ingEl.value='${i.text}';cook()">${i.icon} ${i.text}</span>`).join('');
 
-function showLoading(){
-  resultEl.innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Hittar på recept...</div></div>';
-}
-function showPlaceholder(){
-  resultEl.innerHTML = '<div class="placeholder"><span class="emoji">👨‍🍳</span>Vad har du i kylskåpet?</div>';
-}
-function showError(msg){
-  resultEl.innerHTML = `<div class="error">😕 ${msg}<small>Försök igen</small></div>`;
-}
-let lastIngredients = '';
+let recognition=null;
+if('webkitSpeechRecognition' in window||'SpeechRecognition' in window){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;recognition=new SR();recognition.lang='sv-SE';recognition.interimResults=false;recognition.onresult=e=>{ingEl.value=e.results[0][0].transcript;voiceBtn.classList.remove('listening');cook()};recognition.onerror=()=>{voiceBtn.classList.remove('listening');statusEl.textContent='Hörde inte'};recognition.onend=()=>voiceBtn.classList.remove('listening')}
+voiceBtn.addEventListener('click',()=>{if(!recognition){statusEl.textContent='Stöder inte röst';return}if(voiceBtn.classList.contains('listening')){recognition.stop();return}voiceBtn.classList.add('listening');statusEl.textContent='🎙️ Lyssnar...';recognition.start()});
+goBtn.addEventListener('click',cook);ingEl.addEventListener('keydown',e=>{if(e.key==='Enter')cook()});renderFavs();
 
-function showRecipe(html){
-  const favs = getFavs();
-  const isFav = favs.some(f => f.title === lastTitle);
-  const favBtn = `<button class="btn-fav${isFav?' saved':''}" onclick="toggleFav(event)">${isFav?'❤️ Sparad':'🤍 Spara'}</button>`;
-  resultEl.innerHTML = `<div class="recipe">${html}
-    <div style="display:flex;gap:8px;flex-wrap:wrap">
-      ${favBtn}
-      <button class="btn-next" onclick="nextRecipe()">🔄 Nästa recept</button>
-    </div>
-  </div>`;
-  document.getElementById('result').scrollIntoView({behavior:'smooth'});
-}
+function showLoading(){resultEl.innerHTML='<div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Hittar på recept...</div></div>'}
+function showError(msg){resultEl.innerHTML=`<div class="error">😕 ${msg}<small>Försök igen</small></div>`}
 
-let lastTitle = '';
-let lastFullRecipe = '';
+let lastIngredients='', lastTitle='', lastFullRecipe='';
+function showRecipe(html){const favs=getFavs();const isFav=favs.some(f=>f.title===lastTitle);const favBtn=`<button class="btn-fav${isFav?' saved':''}" onclick="toggleFav(event)">${isFav?'❤️ Sparad':'🤍 Spara'}</button>`;resultEl.innerHTML=`<div class="recipe">${html}<div style="display:flex;gap:8px;flex-wrap:wrap">${favBtn}<button class="btn-next" onclick="nextRecipe()">🔄 Nästa recept</button></div></div>`;document.getElementById('result').scrollIntoView({behavior:'smooth'})}
+function parseTitle(html){const m=html.match(/<h2>(.*?)<\/h2>/);return m?m[1]:''}
+function getFavs(){try{return JSON.parse(localStorage.getItem('favorites')||'[]')}catch{return[]}}
+function saveFavs(f){localStorage.setItem('favorites',JSON.stringify(f))}
+function toggleFav(e){e.stopPropagation();const f=getFavs();const i=f.findIndex(x=>x.title===lastTitle);if(i>=0)f.splice(i,1);else f.push({title:lastTitle,recipe:lastFullRecipe,date:new Date().toISOString(),ingredients:lastIngredients});saveFavs(f);renderFavs();showRecipe(formatRecipe(lastFullRecipe))}
+function renderFavs(){const f=getFavs();const el=document.getElementById('favorites');if(!f.length){el.innerHTML='';return}el.innerHTML='<h3>⭐ Dina favoriter</h3>'+f.map((x,i)=>`<div class="fav-item" onclick="ingEl.value='${x.ingredients}';cook()"><span class="name">${x.title}</span><span class="del" onclick="event.stopPropagation();delFav(${i})">✕</span></div>`).join('')}
+function delFav(i){const f=getFavs();f.splice(i,1);saveFavs(f);renderFavs()}
+function nextRecipe(){if(!lastIngredients)return;ingEl.value=lastIngredients;cook(true)}
 
-function parseTitle(html){
-  const m = html.match(/<h2>(.*?)<\/h2>/);
-  return m ? m[1] : '';
-}
+async function cook(reRoll=false){const ingredients=ingEl.value.trim();if(!ingredients){statusEl.textContent='Skriv minst en ingrediens';return}lastIngredients=ingredients;statusEl.textContent=reRoll?'Letar efter ett annat recept...':'';showLoading();try{const resp=await fetch('/api/cook',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ingredients,re_roll:reRoll})});const data=await resp.json();if(!resp.ok||data.error)throw new Error(data.error||'Server error');const html=formatRecipe(data.recipe);lastTitle=parseTitle(html);lastFullRecipe=data.recipe;showRecipe(html);renderFavs();statusEl.textContent=''}catch(e){showError(e.message)}}
+function formatRecipe(t){return t.replace(/### (.*)/g,'<h2>$1</h2>').replace(/## (.*)/g,'<h3>$1</h3>').replace(/\*\*Tid:\*\* (.*)/g,'<div class="meta-row"><span class="time">⏱ $1</span>').replace(/\*\*Svårighet:\*\* (.*)/g,'<span class="diff">📊 $1</span></div>').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}
 
-function getFavs(){
-  try { return JSON.parse(localStorage.getItem('favorites') || '[]'); }
-  catch { return []; }
-}
-function saveFavs(favs){ localStorage.setItem('favorites', JSON.stringify(favs)); }
+// === BROWSE MODE ===
+let allRecipes=[],filteredRecipes=[],allCategories=[],activeCat='';
+async function loadRecipes(){try{const r=await fetch('recipes.json');allRecipes=await r.json();allCategories=[...new Set(allRecipes.map(x=>x.category).filter(Boolean))].sort();filteredRecipes=allRecipes;renderCategories();renderGrid()}catch(e){document.getElementById('recipesGrid').innerHTML='<div class="error">Kunde inte ladda recept</div>'}}
 
-function toggleFav(e){
-  e.stopPropagation();
-  const favs = getFavs();
-  const idx = favs.findIndex(f => f.title === lastTitle);
-  if (idx >= 0) { favs.splice(idx, 1); }
-  else { favs.push({title:lastTitle, recipe:lastFullRecipe, date:new Date().toISOString(), ingredients:lastIngredients}); }
-  saveFavs(favs);
-  renderFavs();
-  // Refresh recipe view
-  showRecipe(formatRecipe(lastFullRecipe));
-}
+function renderCategories(){document.getElementById('catFilters').innerHTML='<span class="cat-chip active" onclick="setCat(\'\')">Alla</span>'+allCategories.map(c=>`<span class="cat-chip" onclick="setCat('${c}')">${c}</span>`).join('')}
+function setCat(cat){activeCat=cat;document.querySelectorAll('.cat-chip').forEach(el=>el.classList.toggle('active',el.textContent===cat||(cat===''&&el.textContent==='Alla')));filterRecipes()}
+function filterRecipes(){const q=document.getElementById('browseSearch').value.toLowerCase();filteredRecipes=allRecipes.filter(r=>(!activeCat||r.category===activeCat)&&(!q||r.title.toLowerCase().includes(q)||(r.tags||'').toLowerCase().includes(q)));renderGrid()}
 
-function renderFavs(){
-  const favs = getFavs();
-  const el = document.getElementById('favorites');
-  if (!favs.length) { el.innerHTML = ''; return; }
-  el.innerHTML = '<h3>⭐ Dina favoriter</h3>' + favs.map((f,i) => `
-    <div class="fav-item" onclick="ingEl.value='${f.ingredients}';cook()">
-      <span class="name">${f.title}</span>
-      <span class="del" onclick="event.stopPropagation();delFav(${i})">✕</span>
-    </div>
-  `).join('');
-}
-function delFav(i){
-  const favs = getFavs();
-  favs.splice(i, 1);
-  saveFavs(favs);
-  renderFavs();
-}
-function nextRecipe(){
-  if (!lastIngredients) return;
-  ingEl.value = lastIngredients;
-  statusEl.textContent = 'Letar efter ett annat recept...';
-  cook(true);
-}
+function renderGrid(){const grid=document.getElementById('recipesGrid');if(!filteredRecipes.length){grid.innerHTML='<div class="placeholder"><span class="emoji">🔍</span>Inga recept hittades</div>';return}grid.innerHTML=filteredRecipes.slice(0,200).map(r=>`<div class="recipe-card" onclick="showDetail('${r.id}')"><img src="${r.thumb}/preview" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect fill=%22%231a1a2e%22 width=%22200%22 height=%22150%22/><text fill=%22%23555%22 x=%22100%22 y=%2280%22 text-anchor=%22middle%22 font-size=%2230%22>🍽️</text></svg>'"><div class="info"><div class="title">${r.title}</div><div class="cat">${r.category} · ${r.area}</div></div></div>`).join('')}
 
-async function cook(reRoll=false) {
-  const ingredients = ingEl.value.trim();
-  if (!ingredients) { statusEl.textContent = 'Skriv minst en ingrediens'; return; }
-  lastIngredients = ingredients;
-  statusEl.textContent = reRoll ? 'Letar efter ett annat recept...' : '';
-  showLoading();
-
-  try {
-    const resp = await fetch('/api/cook', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({ingredients, re_roll: reRoll})
-    });
-    const data = await resp.json();
-    if (!resp.ok || data.error) throw new Error(data.error || 'Server error');
-    const html = formatRecipe(data.recipe);
-    lastTitle = parseTitle(html);
-    lastFullRecipe = data.recipe;
-    showRecipe(html);
-    renderFavs();
-    statusEl.textContent = '';
-  } catch(e) {
-    showError(e.message);
-  }
-}
-
-function formatRecipe(text) {
-  return text
-    .replace(/### (.*)/g, '<h2>$1</h2>')
-    .replace(/## (.*)/g, '<h3>$1</h3>')
-    .replace(/\*\*Tid:\*\* (.*)/g, '<div class="meta"><span class="time">⏱ $1</span>')
-    .replace(/\*\*Svårighet:\*\* (.*)/g, '<span class="diff">📊 $1</span></div>')
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\n/g, '<br>');
-}
+function showDetail(id){const r=allRecipes.find(x=>x.id===id);if(!r)return;const ingList=r.ingredients.map((ing,i)=>`<li>${r.measures[i]||''} ${ing}</li>`).join('');document.getElementById('modal').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal"><button class="close-btn" onclick="closeModal()">✕</button><img src="${r.thumb}" onerror="this.style.display='none'"><h2>${r.title}</h2><div class="meta"><span style="background:rgba(255,107,107,.15);color:#ff6b6b">📁 ${r.category}</span><span style="background:rgba(255,217,61,.1);color:#ffd93d">🌍 ${r.area}</span></div><h3>Ingredienser</h3><ul>${ingList}</ul><h3>Instruktioner</h3><p>${r.instructions}</p>${r.youtube?`<p style="margin-top:16px"><a href="${r.youtube}" target="_blank" style="color:#ff6b6b">📺 Se på YouTube</a></p>`:''}</div></div>`}
+function closeModal(){document.getElementById('modal').innerHTML=''}
 </script>
 </body>
 </html>
