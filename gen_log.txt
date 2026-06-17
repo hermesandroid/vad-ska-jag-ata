@@ -47,35 +47,4378 @@
   ✗ Unterminated string starting at: line 89 column 119 (char 6383)
   ✗ Unterminated string starting at: line 99 column 49 (char 6124)
   ✗ Unterminated string starting at: line 215 column 21 (char 6476)
-ry": "Sallad",
-"area": "Swedish"
+  ✗ Unterminated string starting at: line 97 column 17 (char 6094)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6262)
+  +10 (total AI:20, all:686)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5972)
+  ✗ Unterminated string starting at: line 79 column 146 (char 6190)
+  ✗ Unterminated string starting at: line 88 column 9 (char 6533)
+  ✗ Expecting property name enclosed in double quotes: line 79 column 130 (char 6078)
+  ✗ Unterminated string starting at: line 197 column 25 (char 7226)
+  ✗ Unterminated string starting at: line 78 column 13 (char 6175)
+  ✗ Unterminated string starting at: line 197 column 9 (char 7003)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5878)
+  ✗ Unterminated string starting at: line 96 column 1 (char 6300)
+  ✗ Expecting property name enclosed in double quotes: line 79 column 102 (char 6348)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6105)
+  ✗ Unterminated string starting at: line 97 column 1 (char 6431)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6255)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6039)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5930)
+  ✗ Unterminated string starting at: line 227 column 17 (char 5971)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6452)
+  +10 (total AI:30, all:696)
+
+📁 Soppa: generating 22...
+  ✗ Unterminated string starting at: line 67 column 17 (char 5797)
+  ✗ Expecting value: line 187 column 16 (char 6284)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6249)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6448)
+  ✗ Unterminated string starting at: line 214 column 7 (char 6421)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6090)
+  ✗ Unterminated string starting at: line 261 column 13 (char 8173)
+  ✗ Unterminated string starting at: line 79 column 120 (char 6376)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6001)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5978)
+  ✗ Unterminated string starting at: line 78 column 13 (char 6082)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5967)
+  ✗ Expecting value: line 99 column 49 (char 6045)
+  ✗ Expecting property name enclosed in double quotes: line 209 column 25 (char 6600)
+  ✗ Unterminated string starting at: line 185 column 7 (char 6487)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6046)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6057)
+  +10 (total AI:40, all:706)
+  ✗ Unterminated string starting at: line 223 column 7 (char 6601)
+  ✗ Remote end closed connection without response
+  ✗ <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 80 column 24 (char 5991)
+  ✗ Expecting value: line 85 column 12 (char 6277)
+  ✗ <urlopen error _ssl.c:1015: The handshake operation timed out>
+  ✗ Expecting value: line 215 column 25 (char 6410)
+  ✗ Unterminated string starting at: line 70 column 5 (char 5933)
+  ✗ <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 77 column 17 (char 5694)
+  ✗ Unterminated string starting at: line 240 column 5 (char 6474)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5956)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5842)
+  ✗ Unterminated string starting at: line 69 column 42 (char 5739)
+  ✗ Unterminated string starting at: line 69 column 114 (char 6396)
+  ✗ Unterminated string starting at: line 70 column 21 (char 5917)
+  ✗ Unterminated string starting at: line 228 column 13 (char 7619)
+  ✗ Unterminated string starting at: line 69 column 1 (char 5837)
+  ✗ Expecting value: line 70 column 12 (char 6003)
+  ✗ Unterminated string starting at: line 69 column 123 (char 5805)
+  ✗ Expecting value: line 83 column 6 (char 5928)
+  ✗ Unterminated string starting at: line 200 column 13 (char 6315)
+  ✗ Unterminated string starting at: line 70 column 85 (char 6133)
+  ✗ Unterminated string starting at: line 241 column 21 (char 6649)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5970)
+  ✗ Unterminated string starting at: line 77 column 1 (char 5747)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5599)
+  ✗ Unterminated string starting at: line 84 column 17 (char 5792)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5794)
+  ✗ <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 77 column 17 (char 5770)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5541)
+  ✗ Unterminated string starting at: line 89 column 101 (char 6185)
+  ✗ Unterminated string starting at: line 79 column 58 (char 5908)
+  ✗ Expecting value: line 81 column 3 (char 5977)
+  ✗ Unterminated string starting at: line 201 column 14 (char 6396)
+  ✗ Remote end closed connection without response
+  ✗ Expecting value: line 90 column 70 (char 6217)
+  ✗ Unterminated string starting at: line 69 column 155 (char 6076)
+  ✗ <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 224 column 1 (char 5937)
+  ✗ Remote end closed connection without response
+  ✗ Unterminated string starting at: line 88 column 9 (char 6209)
+  ✗ Expecting value: line 232 column 17 (char 6587)
+  ✗ <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1032)>
+  ✗ <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>
+  ✗ Expecting value: line 77 column 20 (char 6131)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6174)
+  ✗ Expecting value: line 206 column 15 (char 6494)
+  ✗ Unterminated string starting at: line 64 column 5 (char 6044)
+  ✗ Unterminated string starting at: line 214 column 21 (char 6179)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5879)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6021)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6028)
+  ✗ Unterminated string starting at: line 79 column 78 (char 5846)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5440)
+  ✗ Unterminated string starting at: line 69 column 98 (char 6022)
+  ✗ Unterminated string starting at: line 75 column 13 (char 6077)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5863)
+  ✗ Expecting property name enclosed in double quotes: line 216 column 53 (char 6520)
+  ✗ Unterminated string starting at: line 60 column 81 (char 5799)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6160)
+  ✗ <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 77 column 17 (char 5696)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5915)
+  ✗ Unterminated string starting at: line 106 column 17 (char 6087)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6007)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6076)
+  ✗ Unterminated string starting at: line 74 column 1 (char 6093)
+  ✗ Unterminated string starting at: line 84 column 10 (char 5806)
+  ✗ Unterminated string starting at: line 209 column 21 (char 6210)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6115)
+  ✗ <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1032)>
+  ✗ Unterminated string starting at: line 77 column 17 (char 5640)
+  ✗ Unterminated string starting at: line 79 column 54 (char 5949)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5828)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5499)
+  ✗ Unterminated string starting at: line 221 column 21 (char 6271)
+  ✗ Unterminated string starting at: line 213 column 21 (char 6288)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5646)
+  ✗ Unterminated string starting at: line 90 column 26 (char 6195)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5784)
+  ✗ Unterminated string starting at: line 245 column 1 (char 5956)
+  ✗ Expecting property name enclosed in double quotes: line 199 column 13 (char 6384)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5813)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5805)
+  ✗ Expecting value: line 76 column 8 (char 5812)
+  ✗ Unterminated string starting at: line 199 column 21 (char 6300)
+  ✗ Unterminated string starting at: line 67 column 25 (char 6059)
+  ✗ Unterminated string starting at: line 78 column 5 (char 5887)
+  +10 (total AI:50, all:716)
+  ✗ Unterminated string starting at: line 223 column 21 (char 6524)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5956)
+  ✗ Unterminated string starting at: line 70 column 93 (char 6086)
+  ✗ Unterminated string starting at: line 200 column 13 (char 6478)
+  ✗ Expecting value: line 218 column 27 (char 6654)
+  ✗ Unterminated string starting at: line 70 column 1 (char 5759)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5966)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5868)
+  ✗ Expecting property name enclosed in double quotes: line 78 column 27 (char 5783)
+  ✗ Unterminated string starting at: line 68 column 13 (char 5917)
+  ✗ Unterminated string starting at: line 66 column 9 (char 6269)
+  ✗ Unterminated string starting at: line 79 column 44 (char 5962)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5724)
+  ✗ Unterminated string starting at: line 90 column 18 (char 6192)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5881)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5630)
+  ✗ Expecting property name enclosed in double quotes: line 196 column 31 (char 6558)
+  ✗ Unterminated string starting at: line 60 column 54 (char 6124)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5856)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6075)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6115)
+  ✗ Unterminated string starting at: line 73 column 17 (char 5642)
+  ✗ Unterminated string starting at: line 69 column 109 (char 5962)
+  ✗ Unterminated string starting at: line 85 column 13 (char 5950)
+  ✗ Unterminated string starting at: line 90 column 31 (char 6104)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5742)
+  ✗ Unterminated string starting at: line 79 column 49 (char 5837)
+  ✗ Expecting value: line 86 column 12 (char 6043)
+  ✗ Unterminated string starting at: line 89 column 30 (char 6150)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5811)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6037)
+  ✗ Unterminated string starting at: line 70 column 35 (char 6075)
+  ✗ Unterminated string starting at: line 69 column 17 (char 5858)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5800)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6059)
+  ✗ Unterminated string starting at: line 80 column 98 (char 5998)
+  ✗ Unterminated string starting at: line 70 column 89 (char 5820)
+  ✗ Unterminated string starting at: line 80 column 1 (char 6129)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5952)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5892)
+  ✗ Unterminated string starting at: line 67 column 21 (char 6093)
+  ✗ Unterminated string starting at: line 97 column 17 (char 5798)
+  ✗ Unterminated string starting at: line 70 column 33 (char 5778)
+  ✗ Unterminated string starting at: line 79 column 33 (char 6004)
+  +10 (total AI:60, all:726)
+
+📁 Grillad fisk: generating 22...
+  ✗ Unterminated string starting at: line 217 column 7 (char 6919)
+  +10 (total AI:70, all:736)
+  ✗ Unterminated string starting at: line 246 column 14 (char 6931)
+  +10 (total AI:80, all:746)
+  ✗ Unterminated string starting at: line 89 column 25 (char 6533)
+  +10 (total AI:90, all:756)
+
+📁 Wok: generating 22...
+  ✗ Unterminated string starting at: line 87 column 21 (char 5937)
+  ✗ Unterminated string starting at: line 225 column 21 (char 6516)
+  ✗ Unterminated string starting at: line 80 column 108 (char 6128)
+  ✗ Unterminated string starting at: line 94 column 14 (char 6285)
+  ✗ Expecting ',' delimiter: line 80 column 87 (char 6052)
+  ✗ Unterminated string starting at: line 238 column 13 (char 6503)
+  ✗ Unterminated string starting at: line 263 column 17 (char 6884)
+  ✗ Unterminated string starting at: line 264 column 14 (char 6894)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6111)
+  ✗ Expecting value: line 228 column 19 (char 6571)
+  +10 (total AI:100, all:766)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6286)
+  ✗ Unterminated string starting at: line 79 column 38 (char 6123)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5980)
+  ✗ Unterminated string starting at: line 88 column 13 (char 6098)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5845)
+  ✗ Expecting property name enclosed in double quotes: line 88 column 31 (char 6375)
+  ✗ Unterminated string starting at: line 89 column 40 (char 6174)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6210)
+  ✗ Unterminated string starting at: line 209 column 21 (char 6281)
+  ✗ Expecting property name enclosed in double quotes: line 97 column 297 (char 6053)
+  ✗ Unterminated string starting at: line 95 column 17 (char 6312)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5927)
+  ✗ Expecting property name enclosed in double quotes: line 93 column 10 (char 5971)
+  ✗ Unterminated string starting at: line 90 column 44 (char 6116)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6116)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5858)
+  ✗ Unterminated string starting at: line 97 column 25 (char 6742)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6089)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6151)
+  ✗ Unterminated string starting at: line 223 column 21 (char 6493)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5864)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6342)
+  ✗ Unterminated string starting at: line 197 column 21 (char 6233)
+  ✗ Expecting value: line 89 column 60 (char 6072)
+  ✗ Unterminated string starting at: line 89 column 85 (char 6147)
+  ✗ Unterminated string starting at: line 96 column 5 (char 6286)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6019)
+  ✗ Unterminated string starting at: line 90 column 86 (char 6104)
+  +8 (total AI:108, all:774)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5836)
+  +10 (total AI:118, all:784)
+
+📁 Vegansk: generating 22...
+  ✗ Unterminated string starting at: line 60 column 115 (char 6102)
+  ✗ Unterminated string starting at: line 72 column 89 (char 6021)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6050)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5950)
+  ✗ Unterminated string starting at: line 73 column 5 (char 5869)
+  ✗ Unterminated string starting at: line 79 column 112 (char 6000)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5906)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5881)
+  ✗ Expecting ',' delimiter: line 67 column 219 (char 5441)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5989)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5820)
+  ✗ Unterminated string starting at: line 194 column 7 (char 6340)
+  ✗ Expecting value: line 69 column 61 (char 5919)
+  ✗ Unterminated string starting at: line 242 column 1 (char 5996)
+  ✗ Unterminated string starting at: line 70 column 26 (char 5988)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5862)
+  ✗ Unterminated string starting at: line 90 column 73 (char 5864)
+  ✗ Unterminated string starting at: line 211 column 21 (char 6207)
+  ✗ Unterminated string starting at: line 79 column 45 (char 5892)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6072)
+  ✗ Unterminated string starting at: line 57 column 17 (char 5625)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5696)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5721)
+  ✗ Unterminated string starting at: line 215 column 21 (char 6353)
+  ✗ Unterminated string starting at: line 70 column 32 (char 6172)
+  ✗ Expecting ',' delimiter: line 37 column 96 (char 2756)
+  ✗ Unterminated string starting at: line 80 column 75 (char 6293)
+  ✗ Unterminated string starting at: line 80 column 120 (char 5959)
+  ✗ Unterminated string starting at: line 70 column 68 (char 6015)
+  ✗ Expecting value: line 74 column 9 (char 6091)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5829)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5893)
+  ✗ Unterminated string starting at: line 217 column 21 (char 6420)
+  ✗ Expecting ',' delimiter: line 8 column 5 (char 669)
+  ✗ Unterminated string starting at: line 80 column 38 (char 6224)
+  ✗ Unterminated string starting at: line 80 column 42 (char 6065)
+  ✗ Expecting value: line 70 column 101 (char 6002)
+  ✗ Unterminated string starting at: line 196 column 7 (char 6580)
+  ✗ Unterminated string starting at: line 209 column 21 (char 6458)
+  ✗ Unterminated string starting at: line 75 column 17 (char 6107)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5653)
+  ✗ Unterminated string starting at: line 89 column 103 (char 6208)
+  ✗ Unterminated string starting at: line 80 column 18 (char 6135)
+  ✗ Expecting property name enclosed in double quotes: line 187 column 7 (char 6538)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5624)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5695)
+  ✗ Unterminated string starting at: line 215 column 21 (char 6439)
+  ✗ Unterminated string starting at: line 67 column 5 (char 6080)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6008)
+  ✗ Unterminated string starting at: line 89 column 77 (char 6007)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5426)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5609)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5651)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5958)
+  ✗ Unterminated string starting at: line 85 column 13 (char 5999)
+  ✗ Unterminated string starting at: line 247 column 21 (char 6642)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5913)
+  ✗ Unterminated string starting at: line 80 column 18 (char 6116)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5678)
+  ✗ Unterminated string starting at: line 60 column 77 (char 5994)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6309)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5802)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5859)
+  ✗ Unterminated string starting at: line 188 column 7 (char 6634)
+  ✗ Unterminated string starting at: line 69 column 122 (char 6040)
+  ✗ Unterminated string starting at: line 70 column 18 (char 5973)
+  ✗ Unterminated string starting at: line 79 column 28 (char 6016)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5957)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6054)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5990)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5567)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6541)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5602)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5804)
+  ✗ Unterminated string starting at: line 70 column 115 (char 6237)
+  ✗ Unterminated string starting at: line 89 column 73 (char 6182)
+  ✗ Unterminated string starting at: line 60 column 132 (char 5956)
+  +10 (total AI:128, all:794)
+  ✗ Unterminated string starting at: line 80 column 99 (char 6232)
+  ✗ Unterminated string starting at: line 79 column 1 (char 5898)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6060)
+  ✗ Unterminated string starting at: line 70 column 60 (char 6010)
+  ✗ Unterminated string starting at: line 70 column 56 (char 6092)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5778)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5809)
+  ✗ Expecting value: line 78 column 20 (char 6104)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5727)
+  ✗ Unterminated string starting at: line 70 column 1 (char 6073)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5719)
+  ✗ Unterminated string starting at: line 204 column 7 (char 6587)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5848)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5903)
+  ✗ Expecting value: line 240 column 10 (char 5939)
+  ✗ Unterminated string starting at: line 70 column 21 (char 5779)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6510)
+  ✗ Unterminated string starting at: line 70 column 69 (char 6012)
+  ✗ Unterminated string starting at: line 84 column 10 (char 5944)
+  ✗ Expecting value: line 71 column 3 (char 6014)
+  ✗ Unterminated string starting at: line 80 column 52 (char 5911)
+  ✗ Unterminated string starting at: line 70 column 18 (char 6212)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5855)
+  ✗ Unterminated string starting at: line 80 column 64 (char 6080)
+  ✗ Unterminated string starting at: line 74 column 14 (char 6058)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5727)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5786)
+  ✗ Unterminated string starting at: line 78 column 9 (char 6057)
+  ✗ Unterminated string starting at: line 265 column 17 (char 6122)
+  ✗ Expecting value: line 70 column 21 (char 6153)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5631)
+  ✗ Unterminated string starting at: line 80 column 99 (char 5925)
+  ✗ Unterminated string starting at: line 79 column 17 (char 5987)
+  ✗ Unterminated string starting at: line 267 column 13 (char 5917)
+  ✗ Unterminated string starting at: line 69 column 124 (char 6067)
+  ✗ Unterminated string starting at: line 225 column 21 (char 6591)
+  ✗ Unterminated string starting at: line 213 column 21 (char 6496)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5958)
+  ✗ Unterminated string starting at: line 80 column 55 (char 6002)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5907)
+  ✗ Expecting value: line 70 column 75 (char 6156)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5947)
+  ✗ Unterminated string starting at: line 65 column 1 (char 5936)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5981)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5979)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5617)
+  ✗ Expecting ',' delimiter: line 58 column 24 (char 4527)
+  ✗ Unterminated string starting at: line 89 column 62 (char 5931)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5933)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5400)
+  ✗ Unterminated string starting at: line 75 column 65 (char 6084)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5767)
+  ✗ Unterminated string starting at: line 70 column 82 (char 5777)
+  ✗ Unterminated string starting at: line 74 column 14 (char 6056)
+  ✗ Unterminated string starting at: line 205 column 11 (char 6647)
+  ✗ Expecting ':' delimiter: line 19 column 20 (char 1599)
+  ✗ Unterminated string starting at: line 205 column 21 (char 6295)
+  ✗ Unterminated string starting at: line 214 column 14 (char 6603)
+  ✗ Unterminated string starting at: line 88 column 9 (char 5892)
+  ✗ Unterminated string starting at: line 207 column 21 (char 6414)
+  ✗ Unterminated string starting at: line 211 column 5 (char 6570)
+  ✗ Unterminated string starting at: line 90 column 47 (char 6237)
+  ✗ Unterminated string starting at: line 78 column 21 (char 6007)
+  ✗ Unterminated string starting at: line 162 column 13 (char 6402)
+  ✗ Unterminated string starting at: line 60 column 41 (char 6060)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5806)
+  ✗ Unterminated string starting at: line 69 column 115 (char 5987)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5998)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5863)
+  ✗ Expecting value: line 86 column 8 (char 6005)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6174)
+  ✗ Unterminated string starting at: line 57 column 21 (char 5454)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5993)
+  ✗ Unterminated string starting at: line 69 column 17 (char 6176)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5929)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5924)
+  ✗ Unterminated string starting at: line 68 column 21 (char 5871)
+  ✗ Unterminated string starting at: line 223 column 21 (char 6531)
+  ✗ Unterminated string starting at: line 69 column 119 (char 6056)
+  ✗ Unterminated string starting at: line 69 column 69 (char 5916)
+  ✗ Unterminated string starting at: line 213 column 21 (char 6301)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5841)
+  ✗ Unterminated string starting at: line 67 column 1 (char 5970)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5805)
+  ✗ Unterminated string starting at: line 187 column 17 (char 6038)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5717)
+  ✗ Unterminated string starting at: line 225 column 21 (char 6389)
+  ✗ Unterminated string starting at: line 191 column 21 (char 6329)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5820)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6036)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5930)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5716)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5776)
+  ✗ Unterminated string starting at: line 209 column 7 (char 6423)
+  ✗ Unterminated string starting at: line 195 column 5 (char 6256)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6085)
+  ✗ Unterminated string starting at: line 74 column 10 (char 5928)
+  ✗ Unterminated string starting at: line 89 column 17 (char 6069)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5836)
+  ✗ Unterminated string starting at: line 80 column 35 (char 6251)
+  ✗ Unterminated string starting at: line 84 column 17 (char 5799)
+  ✗ Unterminated string starting at: line 69 column 68 (char 5957)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5864)
+  ✗ Unterminated string starting at: line 227 column 17 (char 5612)
+  ✗ Unterminated string starting at: line 80 column 1 (char 5986)
+  +10 (total AI:138, all:804)
+  ✗ Unterminated string starting at: line 60 column 42 (char 5830)
+  ✗ Expecting value: line 71 column 34 (char 6178)
+  +10 (total AI:148, all:814)
+
+📁 Vegetarisk: generating 22...
+  ✗ Unterminated string starting at: line 190 column 21 (char 6166)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5921)
+  ✗ Unterminated string starting at: line 225 column 21 (char 6654)
+  ✗ Unterminated string starting at: line 205 column 9 (char 7615)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5929)
+  ✗ Unterminated string starting at: line 229 column 21 (char 6531)
+  ✗ Unterminated string starting at: line 242 column 14 (char 6604)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5776)
+  ✗ Unterminated string starting at: line 90 column 14 (char 5892)
+  ✗ Unterminated string starting at: line 70 column 25 (char 6092)
+  ✗ Unterminated string starting at: line 79 column 50 (char 6080)
+  ✗ Expecting value: line 207 column 16 (char 6644)
+  ✗ Expecting value: line 70 column 82 (char 6287)
+  ✗ Unterminated string starting at: line 206 column 7 (char 6570)
+  ✗ Expecting value: line 215 column 10 (char 6395)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5939)
+  ✗ Unterminated string starting at: line 70 column 31 (char 6021)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5855)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5736)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5807)
+  +10 (total AI:158, all:824)
+  ✗ Unterminated string starting at: line 79 column 130 (char 6411)
+  +10 (total AI:168, all:834)
+  ✗ Unterminated string starting at: line 69 column 96 (char 6068)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5898)
+  ✗ Unterminated string starting at: line 83 column 1 (char 6267)
+  ✗ Unterminated string starting at: line 205 column 7 (char 6622)
+  ✗ Unterminated string starting at: line 79 column 84 (char 5976)
+  ✗ Unterminated string starting at: line 79 column 96 (char 6015)
+  ✗ Unterminated string starting at: line 202 column 7 (char 6558)
+  ✗ Unterminated string starting at: line 78 column 14 (char 6051)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5734)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5707)
+  +10 (total AI:178, all:844)
+
+📁 Medelhavskost: generating 22...
+  ✗ Unterminated string starting at: line 244 column 21 (char 6850)
+  ✗ Unterminated string starting at: line 90 column 79 (char 6385)
+  ✗ Unterminated string starting at: line 249 column 21 (char 6728)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6169)
+  ✗ Unterminated string starting at: line 79 column 81 (char 6140)
+  ✗ Unterminated string starting at: line 77 column 25 (char 6235)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5800)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6306)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5947)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5969)
+  ✗ Expecting ',' delimiter: line 57 column 360 (char 5129)
+  ✗ Expecting value: line 259 column 14 (char 6973)
+  ✗ Unterminated string starting at: line 89 column 17 (char 6387)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6129)
+  ✗ Unterminated string starting at: line 80 column 79 (char 6234)
+  ✗ Unterminated string starting at: line 246 column 5 (char 7018)
+  +10 (total AI:188, all:854)
+  ✗ Unterminated string starting at: line 80 column 67 (char 6198)
+  ✗ Unterminated string starting at: line 71 column 35 (char 6090)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6192)
+  ✗ Expecting property name enclosed in double quotes: line 74 column 62 (char 6419)
+  ✗ Unterminated string starting at: line 84 column 10 (char 6119)
+  ✗ Unterminated string starting at: line 59 column 144 (char 5937)
+  ✗ Expecting ',' delimiter: line 249 column 14 (char 6689)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6226)
+  ✗ Expecting property name enclosed in double quotes: line 270 column 53 (char 6170)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5984)
+  ✗ Unterminated string starting at: line 69 column 188 (char 6199)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6168)
+  ✗ Unterminated string starting at: line 213 column 5 (char 6711)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5946)
+  ✗ Expecting ',' delimiter: line 73 column 8 (char 6296)
+  +10 (total AI:198, all:864)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5856)
+  ✗ Unterminated string starting at: line 197 column 21 (char 6502)
+  ✗ Unterminated string starting at: line 94 column 10 (char 6288)
+  ✗ Expecting property name enclosed in double quotes: line 231 column 23 (char 6690)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5821)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5904)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6118)
+  ✗ Unterminated string starting at: line 233 column 7 (char 6835)
+  ✗ Unterminated string starting at: line 261 column 21 (char 6858)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6154)
+  ✗ Expecting property name enclosed in double quotes: line 66 column 19 (char 6192)
+  ✗ Unterminated string starting at: line 70 column 48 (char 6184)
+  ✗ Expecting value: line 222 column 14 (char 6868)
+  ✗ Unterminated string starting at: line 80 column 35 (char 6502)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5927)
+  ✗ Unterminated string starting at: line 80 column 31 (char 6110)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5905)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6272)
+  ✗ Unterminated string starting at: line 69 column 38 (char 5842)
+  +10 (total AI:208, all:874)
+
+📁 Kycklingrätter: generating 22...
+  ✗ Unterminated string starting at: line 81 column 103 (char 6098)
+  ✗ Unterminated string starting at: line 84 column 1 (char 6348)
+  ✗ Unterminated string starting at: line 90 column 31 (char 6295)
+  ✗ Expecting value: line 239 column 14 (char 6711)
+  ✗ Unterminated string starting at: line 246 column 17 (char 6631)
+  ✗ Expecting property name enclosed in double quotes: line 78 column 27 (char 6120)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6084)
+  ✗ Unterminated string starting at: line 100 column 31 (char 6319)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5907)
+  ✗ Unterminated string starting at: line 79 column 17 (char 6159)
+  ✗ Unterminated string starting at: line 89 column 17 (char 6098)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6119)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6032)
+  ✗ Unterminated string starting at: line 88 column 13 (char 6166)
+  ✗ Unterminated string starting at: line 89 column 49 (char 6341)
+  +10 (total AI:218, all:884)
+  ✗ Unterminated string starting at: line 99 column 54 (char 6375)
+  ✗ Unterminated string starting at: line 94 column 10 (char 6070)
+  ✗ Unterminated string starting at: line 75 column 1 (char 5891)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5921)
+  ✗ Expecting property name enclosed in double quotes: line 89 column 130 (char 6350)
+  +10 (total AI:228, all:894)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6077)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5787)
+  ✗ Unterminated string starting at: line 194 column 7 (char 6592)
+  ✗ Unterminated string starting at: line 226 column 25 (char 7661)
+  ✗ Unterminated string starting at: line 89 column 13 (char 6032)
+  +9 (total AI:237, all:903)
+
+📁 Proteinrik: generating 22...
+  ✗ Unterminated string starting at: line 94 column 14 (char 6103)
+  ✗ Unterminated string starting at: line 221 column 7 (char 6631)
+  ✗ Unterminated string starting at: line 94 column 10 (char 5967)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6082)
+  ✗ Expecting value: line 90 column 43 (char 6303)
+  ✗ Unterminated string starting at: line 80 column 103 (char 6224)
+  ✗ Unterminated string starting at: line 80 column 75 (char 6136)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6010)
+  ✗ Expecting value: line 88 column 8 (char 6072)
+  ✗ Unterminated string starting at: line 88 column 9 (char 6046)
+  ✗ Unterminated string starting at: line 99 column 17 (char 6262)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6009)
+  +10 (total AI:247, all:913)
+  +10 (total AI:257, all:923)
+  ✗ Expecting value: line 100 column 12 (char 6247)
+  ✗ Unterminated string starting at: line 80 column 61 (char 6436)
+  ✗ Unterminated string starting at: line 78 column 13 (char 6105)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6074)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6029)
+  +10 (total AI:267, all:933)
+
+📁 Lågkalori: generating 22...
+  ✗ Expecting value: line 73 column 10 (char 6109)
+  ✗ Unterminated string starting at: line 79 column 123 (char 6318)
+  ✗ Unterminated string starting at: line 85 column 14 (char 6108)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6105)
+  ✗ Expecting value: line 246 column 14 (char 6868)
+  ✗ Expecting property name enclosed in double quotes: line 89 column 145 (char 6413)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6004)
+  ✗ Unterminated string starting at: line 211 column 21 (char 6490)
+  ✗ Unterminated string starting at: line 245 column 21 (char 6623)
+  ✗ Unterminated string starting at: line 218 column 21 (char 6347)
+  ✗ Unterminated string starting at: line 100 column 62 (char 6394)
+  ✗ Expecting value: line 79 column 45 (char 6288)
+  ✗ Unterminated string starting at: line 89 column 32 (char 6476)
+  ✗ Unterminated string starting at: line 219 column 21 (char 6624)
+  ✗ Expecting value: line 84 column 13 (char 6297)
+  ✗ Expecting value: line 79 column 66 (char 6411)
+  ✗ Expecting value: line 80 column 119 (char 6141)
+  ✗ Unterminated string starting at: line 90 column 42 (char 6420)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6061)
+  ✗ Unterminated string starting at: line 80 column 21 (char 6008)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6086)
+  ✗ Unterminated string starting at: line 80 column 89 (char 6217)
+  ✗ Unterminated string starting at: line 219 column 21 (char 6549)
+  ✗ Unterminated string starting at: line 213 column 7 (char 6597)
+  ✗ Unterminated string starting at: line 88 column 1 (char 6139)
+  ✗ Expecting value: line 79 column 53 (char 6056)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5729)
+  ✗ Unterminated string starting at: line 211 column 21 (char 6462)
+  +9 (total AI:276, all:942)
+  ✗ Unterminated string starting at: line 88 column 21 (char 5892)
+  ✗ Unterminated string starting at: line 202 column 7 (char 6589)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5872)
+  ✗ Unterminated string starting at: line 97 column 21 (char 6052)
+  ✗ Unterminated string starting at: line 217 column 21 (char 6491)
+  ✗ Unterminated string starting at: line 205 column 21 (char 6569)
+  ✗ Unterminated string starting at: line 80 column 74 (char 6058)
+  ✗ Unterminated string starting at: line 209 column 21 (char 6465)
+  +10 (total AI:286, all:952)
+  ✗ Unterminated string starting at: line 100 column 56 (char 6293)
+  ✗ Unterminated string starting at: line 211 column 21 (char 6559)
+  +10 (total AI:296, all:962)
+
+📁 Glutenfri: generating 22...
+  ✗ Expecting value: line 189 column 18 (char 6313)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5440)
+  ✗ Unterminated string starting at: line 209 column 7 (char 6624)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5942)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6284)
+  ✗ Unterminated string starting at: line 78 column 9 (char 6158)
+  ✗ Unterminated string starting at: line 201 column 25 (char 7341)
+  ✗ Unterminated string starting at: line 242 column 14 (char 6924)
+  ✗ Expecting value: line 81 column 3 (char 6295)
+  ✗ Unterminated string starting at: line 200 column 21 (char 6282)
+  ✗ Unterminated string starting at: line 89 column 78 (char 6208)
+  ✗ Unterminated string starting at: line 90 column 30 (char 6212)
+  ✗ Unterminated string starting at: line 235 column 21 (char 6464)
+  ✗ Unterminated string starting at: line 94 column 10 (char 6242)
+  ✗ Unterminated string starting at: line 81 column 94 (char 6272)
+  ✗ Expecting value: line 240 column 17 (char 6928)
+  ✗ Unterminated string starting at: line 210 column 21 (char 6403)
+  ✗ Unterminated string starting at: line 100 column 91 (char 6220)
+  ✗ Unterminated string starting at: line 90 column 51 (char 6298)
+  ✗ Expecting value: line 59 column 19 (char 5960)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6006)
+  ✗ Expecting value: line 279 column 12 (char 6224)
+  ✗ Unterminated string starting at: line 80 column 65 (char 6318)
+  ✗ Expecting property name enclosed in double quotes: line 83 column 17 (char 6355)
+  ✗ Unterminated string starting at: line 207 column 21 (char 6370)
+  ✗ Unterminated string starting at: line 79 column 1 (char 5989)
+  ✗ Unterminated string starting at: line 94 column 10 (char 6388)
+  ✗ Unterminated string starting at: line 229 column 21 (char 6634)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6182)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6078)
+  ✗ Unterminated string starting at: line 200 column 7 (char 6276)
+  ✗ Unterminated string starting at: line 79 column 1 (char 6052)
+  ✗ Unterminated string starting at: line 234 column 14 (char 6802)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5923)
+  ✗ Expecting value: line 232 column 11 (char 6037)
+  ✗ Expecting value: line 223 column 13 (char 6636)
+  ✗ Expecting value: line 99 column 15 (char 6050)
+  ✗ Unterminated string starting at: line 90 column 87 (char 6065)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6240)
+  ✗ Unterminated string starting at: line 258 column 7 (char 6889)
+  ✗ Unterminated string starting at: line 86 column 9 (char 5908)
+  ✗ Unterminated string starting at: line 89 column 64 (char 6367)
+  ✗ Unterminated string starting at: line 213 column 21 (char 6528)
+  ✗ Expecting value: line 77 column 20 (char 6249)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5911)
+  ✗ Unterminated string starting at: line 90 column 23 (char 6387)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6112)
+  ✗ Unterminated string starting at: line 91 column 17 (char 6092)
+  ✗ Unterminated string starting at: line 90 column 43 (char 6305)
+  ✗ Unterminated string starting at: line 95 column 17 (char 6336)
+  ✗ Unterminated string starting at: line 188 column 13 (char 7536)
+  +10 (total AI:306, all:972)
+  ✗ Unterminated string starting at: line 64 column 14 (char 5959)
+  ✗ Unterminated string starting at: line 89 column 71 (char 6380)
+  ✗ Unterminated string starting at: line 94 column 10 (char 6146)
+  ✗ Expecting value: line 258 column 10 (char 6582)
+  ✗ Unterminated string starting at: line 100 column 37 (char 6162)
+  ✗ Expecting value: line 99 column 42 (char 6337)
+  ✗ Unterminated string starting at: line 235 column 21 (char 6638)
+  ✗ Expecting property name enclosed in double quotes: line 256 column 7 (char 6810)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6183)
+  ✗ Unterminated string starting at: line 85 column 17 (char 6245)
+  +10 (total AI:316, all:982)
+  ✗ Unterminated string starting at: line 90 column 85 (char 6224)
+  ✗ Unterminated string starting at: line 216 column 14 (char 6667)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5765)
+  ✗ Unterminated string starting at: line 99 column 17 (char 6298)
+  ✗ Unterminated string starting at: line 209 column 21 (char 6934)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6045)
+  ✗ Unterminated string starting at: line 100 column 69 (char 6360)
+  +10 (total AI:326, all:992)
+
+📁 Smoothie Bowl: generating 22...
+  +10 (total AI:336, all:1002)
+  +8 (total AI:344, all:1010)
+  ✗ Unterminated string starting at: line 279 column 21 (char 6765)
+  +10 (total AI:354, all:1020)
+
+📁 Skaldjur: generating 22...
+  ✗ Expecting value: line 85 column 12 (char 6152)
+  ✗ Unterminated string starting at: line 100 column 65 (char 6204)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6197)
+  ✗ Expecting value: line 73 column 6 (char 6145)
+  ✗ Unterminated string starting at: line 99 column 62 (char 6117)
+  ✗ Unterminated string starting at: line 69 column 17 (char 6058)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6060)
+  ✗ Expecting value: line 90 column 39 (char 6155)
+  ✗ Unterminated string starting at: line 90 column 23 (char 6193)
+  ✗ Unterminated string starting at: line 98 column 9 (char 6224)
+  ✗ Unterminated string starting at: line 86 column 9 (char 6058)
+  ✗ Unterminated string starting at: line 99 column 115 (char 6343)
+  ✗ Unterminated string starting at: line 252 column 1 (char 6144)
+  ✗ Unterminated string starting at: line 90 column 34 (char 6131)
+  ✗ Unterminated string starting at: line 87 column 19 (char 5687)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6018)
+  ✗ Unterminated string starting at: line 93 column 13 (char 5971)
+  +10 (total AI:364, all:1030)
+  ✗ Unterminated string starting at: line 211 column 25 (char 7735)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6216)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6147)
+  ✗ Unterminated string starting at: line 97 column 17 (char 6257)
+  ✗ Unterminated string starting at: line 80 column 69 (char 6173)
+  ✗ Unterminated string starting at: line 97 column 25 (char 6345)
+  ✗ Expecting property name enclosed in double quotes: line 228 column 4 (char 6695)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5863)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6187)
+  ✗ Unterminated string starting at: line 90 column 75 (char 6268)
+  ✗ Expecting value: line 93 column 6 (char 6158)
+  ✗ Unterminated string starting at: line 231 column 17 (char 5955)
+  ✗ Unterminated string starting at: line 84 column 17 (char 5835)
+  +9 (total AI:373, all:1039)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6208)
+  ✗ Unterminated string starting at: line 100 column 119 (char 6403)
+  ✗ Unterminated string starting at: line 84 column 10 (char 6229)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6042)
+  ✗ Unterminated string starting at: line 106 column 17 (char 6256)
+  ✗ Unterminated string starting at: line 93 column 5 (char 6396)
+  ✗ Unterminated string starting at: line 88 column 13 (char 6226)
+  ✗ Expecting value: line 100 column 36 (char 6422)
+  ✗ Expecting ',' delimiter: line 8 column 1 (char 573)
+  ✗ Unterminated string starting at: line 98 column 13 (char 6446)
+  +10 (total AI:383, all:1049)
+
+📁 Meal Prep: generating 22...
+  ✗ Unterminated string starting at: line 77 column 17 (char 5895)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5762)
+  ✗ Unterminated string starting at: line 67 column 21 (char 6042)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5868)
+  ✗ Expecting value: line 79 column 108 (char 6204)
+  +10 (total AI:393, all:1059)
+  ✗ Unterminated string starting at: line 70 column 66 (char 6112)
+  ✗ Unterminated string starting at: line 205 column 13 (char 7671)
+  ✗ Unterminated string starting at: line 70 column 14 (char 6162)
+  ✗ Expecting ',' delimiter: line 70 column 120 (char 5964)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5793)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6051)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6121)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5879)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5920)
+  ✗ Unterminated string starting at: line 66 column 9 (char 6150)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5837)
+  ✗ Unterminated string starting at: line 198 column 7 (char 6589)
+  ✗ Expecting property name enclosed in double quotes: line 67 column 469 (char 6125)
+  ✗ Unterminated string starting at: line 195 column 21 (char 6243)
+  ✗ Expecting value: line 69 column 41 (char 6226)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5933)
+  ✗ Unterminated string starting at: line 229 column 17 (char 5851)
+  ✗ Unterminated string starting at: line 72 column 21 (char 5905)
+  ✗ Unterminated string starting at: line 65 column 13 (char 5992)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5781)
+  ✗ Unterminated string starting at: line 67 column 17 (char 6024)
+  ✗ Unterminated string starting at: line 70 column 80 (char 6148)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6099)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5836)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5816)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5812)
+  ✗ Unterminated string starting at: line 193 column 7 (char 6718)
+  ✗ Unterminated string starting at: line 69 column 99 (char 6172)
+  ✗ Expecting value: line 197 column 14 (char 6593)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5732)
+  ✗ Unterminated string starting at: line 79 column 62 (char 6028)
+  ✗ Unterminated string starting at: line 79 column 81 (char 6195)
+  ✗ Unterminated string starting at: line 67 column 21 (char 6173)
+  ✗ Expecting value: line 69 column 67 (char 6126)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5851)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5893)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5804)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5825)
+  ✗ Expecting value: line 66 column 12 (char 6093)
+  ✗ Expecting value: line 60 column 31 (char 6257)
+  ✗ Unterminated string starting at: line 76 column 75 (char 6289)
+  ✗ Unterminated string starting at: line 204 column 7 (char 6589)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5744)
+  ✗ Unterminated string starting at: line 198 column 7 (char 6620)
+  ✗ Unterminated string starting at: line 73 column 17 (char 5489)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6010)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5926)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5964)
+  ✗ Expecting value: line 80 column 29 (char 6097)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5810)
+  ✗ Expecting value: line 69 column 42 (char 6090)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5724)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5820)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6290)
+  ✗ Unterminated string starting at: line 84 column 10 (char 6344)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5788)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5745)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5875)
+  ✗ Expecting value: line 218 column 18 (char 6595)
+  ✗ Unterminated string starting at: line 70 column 118 (char 6119)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5799)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5840)
+  ✗ Unterminated string starting at: line 68 column 21 (char 6002)
+  ✗ Unterminated string starting at: line 78 column 17 (char 6086)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6014)
+  ✗ Unterminated string starting at: line 70 column 30 (char 6044)
+  ✗ Expecting property name enclosed in double quotes: line 183 column 602 (char 6602)
+  ✗ Expecting property name enclosed in double quotes: line 95 column 25 (char 6199)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5990)
+  ✗ Unterminated string starting at: line 57 column 17 (char 5886)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6470)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5612)
+  ✗ Unterminated string starting at: line 74 column 10 (char 6075)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6027)
+  ✗ Unterminated string starting at: line 70 column 66 (char 6026)
+  ✗ Unterminated string starting at: line 70 column 106 (char 6303)
+  ✗ Unterminated string starting at: line 85 column 13 (char 6005)
+  ✗ Unterminated string starting at: line 57 column 25 (char 5802)
+  ✗ Unterminated string starting at: line 78 column 21 (char 6082)
+  ✗ Unterminated string starting at: line 202 column 7 (char 6636)
+  ✗ Expecting value: line 73 column 6 (char 6225)
+  ✗ Unterminated string starting at: line 69 column 112 (char 6187)
+  ✗ Unterminated string starting at: line 76 column 1 (char 6078)
+  ✗ Unterminated string starting at: line 200 column 7 (char 6677)
+  ✗ Unterminated string starting at: line 211 column 21 (char 6337)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6070)
+  ✗ Unterminated string starting at: line 64 column 14 (char 6085)
+  ✗ Unterminated string starting at: line 77 column 21 (char 6234)
+  ✗ Unterminated string starting at: line 87 column 21 (char 6213)
+  ✗ Expecting value: line 197 column 16 (char 6528)
+  ✗ Expecting value: line 200 column 15 (char 6663)
+  ✗ Unterminated string starting at: line 74 column 1 (char 6361)
+  +9 (total AI:402, all:1068)
+  ✗ Expecting value: line 59 column 63 (char 6227)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5879)
+  ✗ Unterminated string starting at: line 70 column 47 (char 6045)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5993)
+  ✗ Unterminated string starting at: line 84 column 10 (char 6132)
+  ✗ Unterminated string starting at: line 80 column 31 (char 6409)
+  ✗ Unterminated string starting at: line 70 column 26 (char 6018)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5978)
+  ✗ Unterminated string starting at: line 69 column 62 (char 6079)
+  ✗ Unterminated string starting at: line 199 column 13 (char 6616)
+  ✗ Expecting value: line 69 column 125 (char 6186)
+  ✗ Unterminated string starting at: line 84 column 17 (char 6114)
+  ✗ Unterminated string starting at: line 77 column 17 (char 5849)
+  ✗ Unterminated string starting at: line 235 column 17 (char 5765)
+  ✗ Unterminated string starting at: line 77 column 17 (char 6046)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6173)
+  ✗ Expecting value: line 65 column 29 (char 5845)
+  ✗ Unterminated string starting at: line 87 column 1 (char 6000)
+  ✗ Unterminated string starting at: line 79 column 89 (char 6029)
+  ✗ Unterminated string starting at: line 69 column 122 (char 6047)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5972)
+  ✗ Unterminated string starting at: line 56 column 21 (char 6158)
+  ✗ Unterminated string starting at: line 208 column 7 (char 6583)
+  ✗ Unterminated string starting at: line 180 column 7 (char 6400)
+  ✗ Expecting property name enclosed in double quotes: line 72 column 2 (char 6175)
+  ✗ Unterminated string starting at: line 67 column 21 (char 5831)
+  ✗ Unterminated string starting at: line 203 column 21 (char 6363)
+  ✗ Unterminated string starting at: line 216 column 9 (char 7707)
+  ✗ Unterminated string starting at: line 70 column 81 (char 6157)
+  ✗ Unterminated string starting at: line 86 column 9 (char 6065)
+  ✗ Unterminated string starting at: line 73 column 17 (char 5695)
+  ✗ Unterminated string starting at: line 87 column 21 (char 5847)
+  ✗ Expecting value: line 70 column 9 (char 6043)
+  ✗ Expecting property name enclosed in double quotes: line 74 column 58 (char 6053)
+  ✗ Unterminated string starting at: line 68 column 13 (char 6130)
+  ✗ Unterminated string starting at: line 84 column 10 (char 5986)
+  ✗ Unterminated string starting at: line 70 column 126 (char 6031)
+  ✗ Unterminated string starting at: line 87 column 17 (char 6215)
+  ✗ Expecting value: line 77 column 111 (char 6022)
+  ✗ Expecting value: line 86 column 12 (char 6147)
+  ✗ Unterminated string starting at: line 201 column 21 (char 6206)
+  ✗ Unterminated string starting at: line 87 column 17 (char 5758)
+  ✗ Unterminated string starting at: line 77 column 21 (char 5832)
+  ✗ Expecting value: line 69 column 79 (char 6103)
+  ✗ Unterminated string starting at: line 191 column 21 (char 6415)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5837)
+  ✗ Unterminated string starting at: line 223 column 7 (char 6614)
+  ✗ Expecting value: line 59 column 54 (char 6169)
+  ✗ Unterminated string starting at: line 67 column 17 (char 5719)
+  +9 (total AI:411, all:1077)
+
+📁 Frukost: generating 22...
+  +10 (total AI:421, all:1087)
+  +10 (total AI:431, all:1097)
+  +9 (total AI:440, all:1106)
+ller",
+    "category": "Vegans
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig vegansk svampsoppa med rostad vitlök",
+    "category": "Vega
   ✗ JSON parse failed: [
 {
 "id": 1,
-"title": "Krämig rödbetssallad med getost och valnötter",
-"category": "Sallad",
+"title": "Svensk quinoa- och grönkålssallad med citron-tahinidressing",
+"category": "Ve
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig vegansk svampstroganoff med havregrädde",
+    "category": "V
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig kokos-linsgryta med spenat",
+"category": "Vegansk",
+"area": "Swedish",
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig Blomkåls- och Kokossoppa med Ingefära",
+"category": "Vegansk",
 "area":
   ✗ JSON parse failed: [
 {
 "id": 1,
-"title": "Svensk jordgubbssallad med feta och mynta",
-"category": "Sallad",
+"title": "Krämig vegansk svamp- och grönkålssoppa",
+"category": "Vegansk",
+"area": "Swe
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig Vegansk Sparrissoppa med Nässlor",
+"category": "Vegan",
+"area": "Swedi
+  ✗ JSON parse failed: [
+{
+"id": "sv_veg_001",
+"title": "Krämig svamp- och grönkålspasta med cashewgrädde",
+"category": "Ve
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Krämig Vegansk Rotfruktssoppa med Kokos",
+    "category": "Vegansk
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig Svamp- och Spenatgryta med Mandelmjölk",
+"category": "Vegansk",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig svampstuvning med havreris",
+    "category": "Vegansk",
+    
+  ✗ JSON parse failed: [
+  {
+    "id": "1",
+    "title": "Krämig vegansk svampsoppa med havre",
+    "category": "Vegansk",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig svamp- och grönkålspasta med cashewgrädde",
+"category": "Vegansk",
+"ar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig vegansk svampgryta med havregrädde",
+"category": "Vegansk",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Blomkåls- och linsbiffar med rostade rotsaker",
+"category": "Vegansk",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig svamp- och havrekolja på rostad pumpa",
+    "category": "Veg
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Krämig morots- och ingefärasoppa med kokos",
+    "category": "Vega
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig Vegansk Rotfruktsgryta med Kokosmjölk",
+"category": "Vegansk",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig vegansk svampstroganoff",
+"category": "Vegansk",
+"area": "Swedish",
+"i
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig vegansk svampsoppa med vitlök och timjan",
+"category": "Vegansk",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig vegansk svampstuvning med grönkål",
+"category": "Vegansk",
 "area": "Sw
   ✗ JSON parse failed: [
 {
 "id": 1,
-"title": "Grönkålssallad med rostade rotfrukter och getost",
-"category": "Sallad",
+"title": "Krämig linssoppa med kokosmjölk",
+"category": "Vegansk",
+"area": "Swedish",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig Vegansk Svamp- och Grönkålssoppa",
+    "category": "Vegansk"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig svamp- och grönkålspasta med cashewgrädde",
+    "category": 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig Vegansk Svampsoppa med Härliga Örter",
+    "category": "Vega
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig vegansk svampsoppa med hasselnötter",
+    "category": "Vegan
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig svamp- och linsgryta med spenat",
+"category": "Vegansk",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig Vegansk Svampstuvning med Dinkel",
+    "category": "Vegansk"
+  +10 (total AI:135, all:801)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig Blomkåls- och Mandelsoppa",
+"category": "Vegansk",
+"area": "Swedish",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Krämig havregrynsgröt med bär och nötter",
+"category": "Vegansk",
+"area": "Sw
+  +10 (total AI:145, all:811)
+
+📁 Vegetarisk: generating 22...
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Havregrynsbiffar med rödbetor och fetaost",
+    "category": "Vegeta
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam rotfruktsgryta med linser",
+"category": "Vegetarisk",
+"area": "Swedi
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Spenat- och quinoabiffar med örtagårdssås",
+    "category": "Vegeta
+  +10 (total AI:155, all:821)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam Rotfruktsgratäng med Mandelmjölk",
+"category": "Vegetarisk",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam rotfruktsgratäng med mandelcrunch",
+"category": "Vegetarisk",
+"area"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Spenat- och kantarellpaj med dinkelbotten",
+    "category": "Veget
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Rotsaksgryta med röda linser och kokosmjölk",
+    "category": "Vege
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Hälsosam rotfruktsgryta med linser och ingefära",
+    "category": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig svamp- och grönkålspytt med rotselleri",
+    "category": "Ve
+  ✗ JSON parse failed: [
+{
+  "id": 1,
+  "title": "Brittas näringsrika rotfruktsgratäng med mandeltopping",
+  "category": "V
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Sötpotatis- och linssoppa med kokosmjölk",
+    "category": "Vegetar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam morots- och linssoppa med ingefära",
+"category": "Vegetarisk",
+"area
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam rotfruktsgratäng med linser",
+"category": "Vegetarisk",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Buddha Bowl med Rostad Rotfrukter och Quinoa",
+    "category": "Veg
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kikärtsbiffar med rostade rotfrukter och örtkräm",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam Rotfruktsgryta med Kikärter och Spenat",
+"category": "Vegetarisk",
+"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Hälsosam rotfruktsgryta med kokosmjölk",
+    "category": "Vegetari
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Hälsosam rotfruktsgryta med linser",
+    "category": "Vegetarisk",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam svamp- och linsbiff med rödbetssallad",
+"category": "Vegetarisk",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam morots- och linsbiff med yoghurtsås",
+"category": "Vegetarisk",
 "are
   ✗ JSON parse failed: [
   {
     "id": 1,
-    "title": "Grönkålssallad med äpple och valnötter",
-    "category": "Sallad",
+    "title": "Havregrynsbiffar med rotfruktsmos",
+    "category": "Vegetarisk",
+ 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Havre- och rotfruktsbiffar med örtkräm",
+    "category": "Vegetaris
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Rotsaksgryta med linser och kokosmjölk",
+    "category": "Vegetaris
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Rotsaksgryta med röda linser och kokosmjölk",
+    "category": "Vege
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kikärtsbiffar med mangold och citron-tahinisås",
+"category": "Vegetarisk",
+"a
+  +10 (total AI:165, all:831)
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Quinoabiffar med örtagårdssås",
+    "category": "Vegetarisk",
+    "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Hälsosam rostad blomkålssallad med citron-tahinidressing",
+    "cat
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig svamp- och grönkålspytt med dillkvarg",
+    "category": "Veg
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig rotsellerisoppa med äppelcrunch",
+    "category": "Vegetaris
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam svensk bönsoppa med grönkål",
+"category": "Vegetarisk",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Rotsaksgryta med linser och kokosmjölk",
+    "category": "Vegetaris
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Hälsosam morots- och linssoppa med ingefära",
+    "category": "Vege
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Krämig rotfruktsgryta med kokos och ingefära",
+    "category": "Veg
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Spenat- och bondbönabiffar med örtkräm",
+    "category": "Vegetaris
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Hälsosam rotfruktsgryta med linser",
+"category": "Vegetarisk",
+"area": "Swedi
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 101,
+    "title": "Krämig rotselleri- och äppelsoppa med ingefära",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk bondgryta med rotfrukter och linser",
+    "category": "Veget
+  +10 (total AI:175, all:841)
+
+📁 Medelhavskost: generating 22...
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med tomat och olivsallad",
+"category": "Medelhavskost",
+"area":
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Svensk medelhavspanna med quinoa och soltorkade tomater",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavsbowl med quinoa och rostade grönsaker",
+    "catego
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med grönkål och soltorkade tomater",
+    "category": 
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Medelhavsgrönkål med rostade rotfrukter och citron-tahinisås",
+   
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Grillad lax med grekisk sallad och örtvinägrett",
+       
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med tomatsås och oliver",
+    "category": "Medelhavsk
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med grillad paprika och feta",
+"category": "Medelhavskost",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk Medelhavsgrillad Lax med Tomatsalsa",
+    "category": "Medel
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsrostad lax med tzatziki och quinoa",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grillad lax med grekisk sallad och örtvinägrett",
+"category": "Medelhavskost"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsburgare med kronärtskocksröra",
+"category": "Medelhavskost",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk medelhavssallad med grillad halloumi",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Spenat- och fetaostpaj med soltorkade tomater",
+"category": "Medelhavskost",
 
   ✗ JSON parse failed: [
   {
-    "id": "swe_sal_01",
-    "title": "Nybörjarsallad med rökt lax och dill",
+    "id": 1,
+    "title": "Medelhavsburgare med Lax och Fetaost",
+    "category": "Medelhavsko
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk Medelhavsbowl med Grillade Grönsaker och Kikärter",
+    "cat
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med grillad halloumi och svenska bär",
+"category": "Medelhavs
+  +10 (total AI:185, all:851)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk Medelhavsgrönsakssoppa",
+"category": "Medelhavskost",
+"area": "Swedish
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med grekisk sallad",
+"category": "Medelhavskost",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsbakad lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker och tzatziki",
+"category": "Medelhavskost
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med grekisk sallad",
+    "category": "Medelhavskost",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavssallad med grillad halloumi och svenska tomater",
+    "cat
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med grillade grönsaker och fetaost",
+"category": "Medelhavsko
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspaj med spenat och feta",
+"category": "Medelhavskost",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med tomatsås och oliver",
+    "category": "Medelhavsk
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Medelhavsgrönkål med rostade kikärtor",
+    "category": "Medelhavs
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsgryta med svenska bönor och soltorkade tomater",
+    "cate
+  ✗ JSON parse failed: [
+{
+"id": 101,
+"title": "Medelhavsbakad lax med soltorkade tomater och oliver",
+"category": "Medelha
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grillad Lax med Grekisk Sallad",
+"category": "Medelhavskost",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med kvinoasallad",
+"category": "Medelhavskost",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönkålssallad med citronvinägrett",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsquinoa med rostade grönsaker och feta",
+    "category": "M
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Medelhavsgrillad lax med grekisk sallad",
+    "category": "Medelha
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med gravad lax och citronvinägrett",
+"category": "Medelhavsko
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk medelhavssallad med grillad halloumi och rostade rödbetor",
+"category"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk Medelhavsquinoa med Grillad Halloumi",
+    "category": "Med
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med soltorkade tomater och oliver",
     "category": "
-  +10 (total AI:20, all:686)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med rostade grönsaker och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: [
+{
+"id": 31,
+"title": "Medelhavsgrönsaker med ugnsbakad lax",
+"category": "Medelhavskost",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsbakad lax med örtcrème",
+"category": "Medelhavskost",
+"area": "Swedi
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsstekt Lax med Fänkål & Kalamataoliver",
+    "category": "M
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsburgare med grillad aubergine och feta",
+    "category": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med soltorkade tomater och oliver",
+    "category": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsgrönkålssallad med rostade mandlar och fetaost",
+    "cate
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker och fetaost",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsakslåda med svensk kvarg",
+"category": "Medelhavskost",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 301,
+"title": "Medelhavspaj med soltorkade tomater och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade tomater och oliver",
+    "category": "Med
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med grillad halloumi och rostade rotfrukter"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med grillad halloumi",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspaj med soltorkade tomater och feta",
+"category": "Medelhavskost",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönkål- och kikärtssallad med citron-tahinidressing",
+"category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk Medelhavssallad med Halloumi och Kantareller",
+"category": "Medelhavsk
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk Medelhavssallad med Grillad Halloumi",
+    "category": "Mede
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavssallad med grillad halloumi och svensk kvinoa",
+    "categ
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med rostad pumpa och feta",
+"category": "Medelhavskost",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsgrönsakssoppa med svenska rotfrukter",
+    "category": "Me
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavsbowl med quinoa och grillad halloumi",
+    "categor
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavskryddad lax med quinoa och soltorkade tomater",
+    "categ
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med svenska tomater och feta",
+    "category": "Medel
+  +10 (total AI:195, all:861)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsakssoppa med soltorkade tomater",
+"category": "Medelhavskost",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med svensk rotfruktsröra",
+"category": "Medelhavskost",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Svensk Medelhavsbowl med Rotselleri och Harissa",
+       
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsakssoppa med fetaost",
+"category": "Medelhavskost",
+"area": "Sw
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk Medelhavstoast med Feta och Avokado",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspannkakor med Feta och Spenat",
+"category": "Medelhavskost",
+"area":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med örtkrusta och rostade grönsaker",
+"category": "Medelhavskos
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssill med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavsbowl med grillad halloumi",
+    "category": "Medelh
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med rostade grönsaker",
+"category": "Medelhavskost",
+"ar
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med citron och örter",
+    "category": "Medelhavskost
+  ✗ JSON parse failed: [
+{
+"id": 101,
+"title": "Medelhavssallad med rostade rotfrukter och feta",
+"category": "Medelhavskos
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Medelhavs-inspirerad lax med rostade grönsaker och citron
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med grekisk sallad",
+"category": "Medelhavskost",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med grillad halloumi",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk medelhavssallad med grillad halloumi",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Medelhavssallad med svenska jordgubbar och fetaost",
+    "category
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk Medelhavssallad med Grillad Halloumi",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med rostade grönsaker och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Medelhavsgrönsaksgryta med tofu och citron",
+    "category": "Mede
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med svensk örtsås",
+"category": "Medelhavskost",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk medelhavssallad med grillad halloumi",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk medelhavssallad med grillad halloumi",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk Medelhavssallad med Feta och Rostad Rödbeta",
+    "category
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk Medelhavssallad med Grillad Halloumi",
+    "category": "Med
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsakssoppa med saffran",
+"category": "Medelhavskost",
+"area": "Sw
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsgrillad lax med grekisk sallad",
+    "category": "Medelhav
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk tomat- och auberginegryta med fetaost",
+    "category": "Med
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgröt med tomat och basilika",
+"category": "Medelhavskost",
+"area": "
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Medelhavspasta med soltorkade tomater och sardeller",
+   
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspytt med kikärtor och rostad paprika",
+"category": "Medelhavskost",
+
+  ✗ JSON parse failed: [
+{
+    "id": 1,
+    "title": "Grillad lax med vit bönsallad och olivdressing",
+    "category": "Med
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med grillad halloumi och rostade rotfrukter",
+"category": "Me
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsinspirerad laxlåda med soltorkade tomater",
+"category": "Medelhavsko
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsrostade rotfrukter med halloumi",
+"category": "Medelhavskost",
+"area
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med svenska rotfrukter och feta",
+"category": "Medelhavskost"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med rostade grönsaker",
+    "category": "Medelhavskos
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsbakad lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavssallad med grillad halloumi och quinoa",
+    "category": "
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med halloumi och rostade grönsaker",
+    "c
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk Medelhavssallad med Gröna Linser",
+"category": "Medelhavskost",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsaksgryta med svenska bönor",
+"category": "Medelhavskost",
+"area
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grekisk-inspirerad lax med citron och örter",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspytt med halloumi och rostad paprika",
+"category": "Medelhavskost",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavsbowl med grillad halloumi",
+    "category": "Medelh
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsrostad Lax med Fänkål och Oliver",
+"category": "Medelhavskost",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavspaj med soltorkade tomater och fetaost",
+"category": "Medelhavskost"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavssallad med grillad halloumi och citronvinägrett",
+    "cat
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk medelhavsbowl med grillad aubergine och feta",
+    "categor
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med rostade grönsaker och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk medelhavsquinoa med grillad aubergine",
+    "category": "Me
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrönsaker med citron-örtquinoa",
+"category": "Medelhavskost",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsbowl med grillad halloumi och quinoa",
+"category": "Medelhavskost",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med tzatziki och rostad potatis",
+"category": "Medelhavs
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavspasta med sardeller och rostade grönsaker",
+    "category"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs-quinoa med grillad aubergine och feta",
+"category": "Medelhavskost"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsgrillad lax med grekisk sallad",
+"category": "Medelhavskost",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker",
+"category": "Medelhavskost",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk Medelhavssallad med Rotselleri och Granatäpple",
+"category": "Medelhav
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Zucchinigratäng med fetaost och soltorkade tomater",
+    "category"
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Medelhavs lax med quinoa och grekisk salsa",
+        "cat
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Grillad lax med grekisk sallad och citron-örtsås",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk Medelhavsquinoa med Grillad Halloumi",
+"category": "Medelhavskost",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavslimpa med soltorkade tomater och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsrimmad lax med rostade grönsaker",
+"category": "Medelhavskost",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavssallad med grillad halloumi och svenska bär",
+"category": "Medelhavs
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med halloumi och örtdressing",
+    "categor
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Svensk medelhavssallad med grillad halloumi",
+    "category": "Mede
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavs lax med quinoa och harissa",
+    "category": "Medelhavsko
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Spenat- och fetaostpaj med soltorkade tomater",
+    "category": "Me
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Medelhavsquinoa med grillad paprika och feta",
+    "category": "Med
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavslimpa med soltorkade tomater och feta",
+"category": "Medelhavskost",
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Svensk tomat- och olivgryta med fetaost",
+    "category": "Medelha
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavsquinoa med grillad halloumi och soltorkade tomater",
+"category": "Me
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Medelhavs lax med rostade grönsaker och oliver",
+"category": "Medelhavskost",
+  +9 (total AI:204, all:870)
+
+📁 Kycklingrätter: generating 22...
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill och citron i ugn",
+    "category": "Kycklingrätt
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och quinoa",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig kycklinggryta med ingefära och lime",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoa och rostade rotfrukter",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoa och rostade rotfrukter",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Saffranskyckling med grönkål och quinoa",
+"category": "Kycklingrätter",
+"area
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill och citron från ugnen",
+    "category": "Kycklin
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med quinoasallad och citronyoghurt",
+    "category": "Kyc
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kycklinggryta med spenat och soltorkade tomater",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med citron- och örtkvinoa",
+"category": "Kycklingrätter",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och quinoa",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med quinoasallad och citronyoghurt",
+    "category": "Kyck
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Grön kycklinggryta med spenat och quinoa",
+    "category": "Kyckli
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med ugnsbakade rotsaker och örtkräm",
+"category": "Kycklingrätter",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med rostade rotfrukter och örtagårdssås",
+"category": "Kycklingrätte
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoa och grönkålspesto",
+"category": "Kycklingrätter",
+"area":
+  +10 (total AI:214, all:880)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och broccoli",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Örtbakad Kyckling med Rostade Rotfrukter",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Saftig kycklinggryta med spenat och citron",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoa och rostade rotfrukter",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": "sk1",
+"title": "Kryddig kycklinggryta med linser och spenat",
+"category": "Kycklingrätter
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig kycklinggryta med quinoa och spenat",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoasallad och citronyoghurt",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med citron- och ingefärsbuljong",
+    "category": "Kyckli
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig kycklinggryta med linser och spenat",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig kycklinggryta med spenat och kikärtor",
+"category": "Kycklingrätter",
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill- och citronkvarg",
+    "category": "Kycklingrätt
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och quinoa",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med spenat och citron",
+    "category": "Kycklingrätter",
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med spenat och citronquinoa",
+"category": "Kycklingrätter",
+"area": 
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill- och citronquinoa",
+    "category": "Kycklingrät
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och linser",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med rostade rotfrukter och citron-örtsås",
+"category": "Kycklingrätt
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron- och örtdressing",
+"category": "Kycklin
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kryddig kycklinggryta med linser och spenat",
+    "category": "Kyc
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med spenat och soltorkade tomater i lätt crème fraiche-sås",
+"catego
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med rostade rotfrukter och örtkräm",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill och lätt crème fraiche",
+    "category": "Kyckli
+  ✗ JSON parse failed: 
+[
+  {
+    "id": "kyckling_001",
+    "title": "Kyckling med spenat och mandelsås",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och quinoa",
+"category": "Kycklingrätter",
+"are
+  +10 (total AI:224, all:890)
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 101,
+    "title": "Kyckling med spenat och soltorkade tomater",
+    "category": "Ky
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med ugnsbakad rotselleri och grönkålspesto",
+    "category
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med ugnsbakad rotsaker och citron-örtsås",
+"category": "Kycklingrätt
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med citron och örter",
+"category": "Kycklingrätter",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk kycklinggryta med spenat och citron",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med örtpesto och blomkålsris",
+"category": "Kycklingrätter",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoasallad och örtdressing",
+"category": "Kycklingrätter",
+"ar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med ugnsbakad spetskål och citron",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grillad Kyckling med Citron och Örter",
+"category": "Kycklingrätter",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med spenat och soltorkade tomater",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Citron- och örtgrillad kyckling med quinoasallad",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med spenat och soltorkade tomater i lätt créme fraiche-sås",
+"catego
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med spenat och soltorkade tomater",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dillig yoghurtsås och sparris",
+    "category": "Kyck
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill, citron och havssalt",
+    "category": "Kyckling
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dillig kvarg och sparris",
+    "category": "Kycklingr
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med grönkål och quinoa",
+"category": "Kycklingrätter",
+"area": "Swed
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Örtig Kyckling med Sparris och Citron",
+"category": "Kycklingrätter",
+"area":
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med ugnsbakad rotselleri och svartkål",
+    "category": "
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med dill- och citronkvarg",
+    "category": "Kycklingrätt
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling med quinoa och rostade rotsaker",
+    "category": "Kyckli
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med grönkål och quinoa",
+"category": "Kycklingrätter",
+"area": "Swed
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med citron och spenat i ugn",
+"category": "Kycklingrätter",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoa och grönkålssallad",
+"category": "Kycklingrätter",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med spenat och soltorkade tomater",
+    "category": "Kyckl
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med rostade rotfrukter och citronörtsås",
+"category": "Kycklingrätte
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och quinoa",
+"category": "Kycklingrätter",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med quinoasallad och citronörtsdressing",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoasallad och citronörtdressing",
+"category": "Kycklingrätter
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Örtmarinerad kyckling med citron och spenat",
+"category": "Kycklingrätter",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med ugnsbakad rotsakspytte och yoghurtsås",
+"category": "Kycklingrät
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoasallad och citron-dillvinägrett",
+"category": "Kycklingrät
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med quinoasallad och avokadodressing",
+"category": "Kycklingrätter",
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grön kycklinggryta med spenat och broccoli",
+"category": "Kycklingrätter",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling med citron och örter i ugn",
+"category": "Kycklingrätter",
+"area": "
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Honungsglaserad kyckling med rostade rotfrukter",
+    "category": 
+  +10 (total AI:234, all:900)
+
+📁 Proteinrik: generating 22...
+  +10 (total AI:244, all:910)
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kryddig kycklinggryta med kikärtor och spenat",
+    "category": "Pr
+  +10 (total AI:254, all:920)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklingfärsbiffar med spenat och kvarg",
+"category": "Proteinrik",
+"area": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kryddig linssoppa med kokos och spenat",
+    "category": "Proteinri
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grönkålssallad med kryddig kikärtsröra",
+"category": "Proteinrik",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig kycklinggryta med kikärter och spenat",
+"category": "Proteinrik",
+"ar
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Grönkålssallad med kryddig kyckling och quinoa",
+    "category": "P
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grönkålssallad med kryddig kikärtsröra",
+"category": "Proteinrik",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": "swedish_protein_01",
+    "title": "Kycklingfärsplättar med kvargdipp",
+    "categor
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kryddig Kycklinggryta med Quinoa",
+    "category": "Proteinrik",
+  
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoabiffar med örtkräm",
+    "category": "Proteinri
+  +10 (total AI:264, all:930)
+
+📁 Lågkalori: generating 22...
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättlagad lax med citron- och örtkvarg",
+    "category": "Lågkalori
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättgräddad lax med dill och citron",
+    "category": "Lågkalori",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 11,
+    "title": "Lätt och fräsch svensk räksallad med avokado",
+    "category": "Lå
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättlagad kycklingsallad med avokado och citrondressing",
+    "cate
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättlagad lax med spenat och citrondressing",
+    "category": "Lågk
+  +10 (total AI:274, all:940)
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lätt och fräsch grönkålssallad med citrondressing",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättlagad lax med citron och sparris",
+    "category": "Lågkalori",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättlagad laxpasta med zucchini",
+    "category": "Lågkalori",
+    
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lax med citron- och dillsås och blomkålsris",
+"category": "Lågkalori",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättlagad blomkålsrisotto med grönkål",
+"category": "Lågkalori",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Grekisk sallad med lätt feta och quinoa",
+    "category": "Lågkalor
+  +10 (total AI:284, all:950)
+  ✗ JSON parse failed: [
+  {
+    "id": "sw-low-01",
+    "title": "Kallrökt lax med gurksallad och dillkvarg",
+    "category
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättgrön sparrissoppa med citron",
+    "category": "Lågkalori",
+   
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lättgrön sparrissoppa med citron",
+    "category": "Lågkalori",
+   
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Lätt currysallad med blomkålsris",
+    "category": "Lågkalori",
+   
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Lättrökt lax med grönkålssallad och citrondressing",
+    "category
+  ✗ JSON parse failed: [
+  {
+    "id": "ls001",
+    "title": "Lättlagad Lax med Dill-Yoghurt Sås",
+    "category": "Lågkalo
+  +10 (total AI:294, all:960)
+
+📁 Glutenfri: generating 22...
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Hallon- & Kokosbollar",
+"category": "Glutenfri",
+"area": "Swedish",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Mandelpannkaka",
+    "category": "Glutenfri"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Zucchinipannkaka med Feta",
+    "category": "Glutenfri",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax- och Dillsallad med Avokado",
+"category": "Glutenfri",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blåbärs- och Kokosgröt",
+"category": "Glutenfri",
+"area": "Swedish"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Rotsaksgratäng med Kokosmjölk",
+    "category": "Glutenfr
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blomkålspizza med Grönsaker",
+    "category": "Glutenfri"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ångkokt Torsk med Rotfruktsmos och Dillsås",
+    "categor
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Rostad Rotfrukter",
+"category": "Glutenfri",
+"are
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri Blomkålspizza med Lax",
+        "category": "Gl
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri ugnsbakad lax med dill och citron",
+    "category": "Glut
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri havre- och lingongröt",
+    "category": "Glutenfri",
+    
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronpesto",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronsås",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålsrisotto med Dill och Lax",
+"category": "Glutenfri",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Bär- och Chiapudding med Kokosmjölk",
+"category": "Glutenfri",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronkvarg",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dillsås och Sötpotatispuré",
+"category": "Glutenf
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- & Havrepannkaka",
+    "category": "Glutenfri",
+ 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill",
+"category": "Glutenfri",
+"area": "Swedish",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Zucchiniplättar med Dillcrème",
+    "category": "Glutenfr
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Kikärtspannkaka med Sparris och Feta",
+"category": "Glutenfri",
+"ar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Bär- & Mandel Smoothie Bowl",
+"category": "Glutenfri",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax- och spenatpaj med mandelmjöl",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax med Dill & Citronquinoa",
+"category": "Glutenfri",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri morotssoppa med ingefära",
+    "category": "Glutenfri",
+ 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfria Pannkakor med Blåbärsgrädde",
+"category": "Glutenfri",
+"area": "Sw
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri Kantarellsoppa med Dillkräm",
+        "category
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dillkräm och Sötpotatispuré",
+    "cate
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Zucchiniplättar med Dillcrème",
+"category": "Glutenfri",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citronquinoa",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax- och Sparrissoppa med Dill",
+    "category": "Glutenf
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 101,
+    "title": "Glutenfri lax- och spenatpaj med mandelmjöl",
+    "category": "Gl
+  ✗ JSON parse failed: [
+{
+    "id": 1,
+    "title": "Glutenfri havregrynsgröt med bär och nötter",
+    "category": "Gluten
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronsås",
+    "category": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Mandelpannkaka",
+    "category": "Glutenfri"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri morotssoppa med kokosmjölk och ingefära",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill & Rostade Rotfrukter",
+"category": "Glutenfr
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill och Grönsaker",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax med Dillsås och Rotfrukter",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+  {
+    "id": "swed_glutenfri_01",
+    "title": "Glutenfri Kikärtsplättar med Grönsaker",
+    "cat
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dillsås och Rotselleripuré",
+    "categ
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfria Ugnsbakade Laxkotletter med Dill- och Citronsås",
+    "c
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blomkålspizza med Skinka och Feta",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålspizza med Bärnsten",
+"category": "Glutenfri",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Rostade Rotfrukter",
+    "cate
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Kokosgröt",
+    "category": "Glutenfri",
+   
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfria äggmuffins med spenat och feta",
+"category": "Glutenfri",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax- och spenatpaj med mandelmjöl",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blomkålspizza med Skinka och Ananas",
+    "category": "Gl
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Lökfräs",
+    "category": "Gl
+  ✗ JSON parse failed: [
+  {
+    "id": "gs1",
+    "title": "Glutenfri Lax- och Dillpudding",
+    "category": "Glutenfri",
+ 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålspizza med Lax & Dill",
+"category": "Glutenfri",
+"area": "Sw
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Köttbullar med Rotmos",
+    "category": "Glutenfri",
+    
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Zucchinipannkaka med Dill & Kvarg",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blåbärs- & Havregrynsgröt med Chiafrön",
+"category": "Glutenfri",
+"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Glutenfri Ärtsoppa med Rotfrukter",
+    "category": "Glutenfri",
+ 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Biff Stroganoff med Blomkålsris",
+"category": "Glutenfri",
+"area": 
+  ✗ JSON parse failed: [
+{
+    "id": 1,
+    "title": "Glutenfri Bär- och Nötpaj",
+    "category": "Glutenfri",
+    "area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill",
+"category": "Glutenfri",
+"area": "Swedish",
+"
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+    "category": "Glu
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Hallonpannacotta med Linfröskal",
+    "categ
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri blomkålspizza med spenat och feta",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkåls- och Broccoligratäng med Mandelmjöl",
+"category": "Glutenf
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Viltfärsbiff med Lingon och Rotselleripuré",
+"category": "Glutenfri
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfria Köttbullar med Palsternacks- och Morotspuré",
+"category": "Glutenf
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Havregrynsgröt med Bär och Nötter",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Älgfärsbiff med Lingon och Rotselleripuré",
+    "category
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+    "category": "Glut
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax med Rostade Rotfrukter och Dillkräm",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålspizza med Kycklingfärs",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Zucchinipannkaka med Örter",
+"category": "Glutenfri",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Kokos- och Chiafrallor",
+    "category": "Glutenfri",
+   
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfria Rårörda Lingon & Chiapuddingar",
+"category": "Glutenfri",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri laxpudding med dill och citron",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålspizza med Färska Örter",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blomkålsgratäng med Lax och Dill",
+    "category": "Glute
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Rödbetssallad",
+    "category"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax- och spenatpaj",
+"category": "Glutenfri",
+"area": "Swedish",
+"i
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Havregrynsgröt med Chiafrön",
+    "category"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Älgfärsbiff med Rödbetssallad",
+"category": "Glutenfri",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkålspizza med Börnbärssallad",
+"category": "Glutenfri",
+"area":
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronkvark",
+     
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ärtsoppa med Rökt Korv",
+"category": "Glutenfri",
+"area": "Swedish"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- & Havregrynsgröt med Chiafrön",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronrisotto",
+   
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Zucchinipannkakor",
+    "category": "Glutenfri",
+    "are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Laxpudding med Dill och Kokosmjölk",
+    "category": "Glu
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Havregrynsgröt med Bär och Nötter",
+    "category": "Glut
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax med Dillpotatis och Grönkålssallad",
+    "category": 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri zucchinipanna med quinoa och feta",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Zucchiniplättar med Dill och Citron",
+"category": "Glutenfri",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+    "category": "Glut
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkåls- och Linsbiffar med Rostad Rotselleri",
+"category": "Glute
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Lax- och Dillpanna",
+"category": "Glutenfri",
+"area": "Swedish",
+"i
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Glutenfri ugnspannkaka med blåbär",
+    "category": "Glutenfri",
+ 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax- och Grönkålspaj med Mandelbotten",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Zucchinipannkakor med Rökt Lax",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill",
+"category": "Glutenfri",
+"area": "Swedish",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronsås",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Kallrökt Laxsallad med Rotselleri och Äpple",
+"category": "Glutenfr
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+    "category": "Glut
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Havregrynsgröt med Lingon och Chia",
+    "category": "Glu
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citronquinoa",
+    "category":
+  ✗ [Errno 104] Connection reset by peer
+  +10 (total AI:304, all:970)
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri älgfärsbiff med lingonsky och rotfruktsmos",
+  
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax- och Dillpaj med Mandelmjöl",
+    "category": "Gluten
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill & Citron",
+"category": "Glutenfri",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Bär- och Mandel Smoothie Bowl",
+"category": "Glutenfri",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri morots- och quinoabiff",
+    "category": "Glutenfri",
+   
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri blomkåls- och broccolipytt med ägg och örter",
+"category": "Glutenf
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Blåbärs- och Quinoagröt",
+    "category": "Glutenfri",
+  
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkåls- och Broccolipuré med Dill och Citron",
+"category": "Glute
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Örtsallad",
+    "category": "Glutenfri"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri, nyttig lax- och avokadosallad",
+"category": "Glutenfri",
+"area": "
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronquinoa",
+    "category"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Blomkåls- och Linsbiffar med Örtdipp",
+"category": "Glutenfri",
+"ar
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dillsås",
+    "category": "Glutenfri",
+
+  ✗ JSON parse failed: [
+{
+"id": "gf01",
+"title": "Glutenfri Ugnsbakad Lax med Dill- och Citronkräm",
+"category": "Glutenfr
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Linssallad med Rödbetor och Fetaost",
+    "category": "Gl
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill- och Citronsås",
+    "category": "
+  ✗ JSON parse failed: [
+    {
+        "id": 1,
+        "title": "Glutenfri Ugnsbakad Lax med Dill & Citron",
+        "cate
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Lax- och Dillpannkaka",
+    "category": "Glutenfri",
+    
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+"category": "Glutenfri",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Havrepannkaka med Bär och Chia",
+    "category": "Glutenf
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Renlax med Dill och Rotfrukter",
+    "category": "Glutenf
+  ✗ JSON parse failed: [
+{
+"id": 1001,
+"title": "Glutenfri Ugnsbakad Lax med Dill- och Citronsås",
+"category": "Glutenfri",
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Glutenfri kantarellpaj med mandelmjöl",
+    "category": "Glutenfri
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Ugnsbakad Lax med Dill och Rostade Rotfrukter",
+"category": "Gluten
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Gurka",
+    "category": "Glute
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill och Citron",
+"category": "Glutenfri",
+"area": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Glutenfri Laxpudding med Dill",
+"category": "Glutenfri",
+"area": "Swedish",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri Ugnsbakad Lax med Dill och Citron",
+    "category": "Glut
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Glutenfri zucchinipannkaka med färskost",
+    "category": "Glutenfr
+  +9 (total AI:313, all:979)
+  +9 (total AI:322, all:988)
+
+📁 Smoothie Bowl: generating 22...
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Blåbärshavre-smoothiebowl",
+    "category": "Smoothie Bowl",
+    "a
+  +10 (total AI:332, all:998)
+  +10 (total AI:342, all:1008)
+  +10 (total AI:352, all:1018)
+
+📁 Skaldjur: generating 22...
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torskrygg med räkor och dillstuvad blomkål",
+"category": "Skaldjur
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill- och citronyoghurt",
+"category": "Skaldjur",
+"area":
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Lättrimmad torskrygg med citron- och dillkräm",
+    "category": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill och citron",
+"category": "Skaldjur",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill och citron",
+"category": "Skaldjur",
+"area": "Swedis
+  +10 (total AI:362, all:1028)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättlagad ugnsbakad torsk med dillstuvad spenat",
+"category": "Skaldjur",
+"ar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med grönkålssallad och citron",
+"category": "Skaldjur",
+"area
+  ✗ JSON parse failed: [
+  {
+    "id": "SweShrimp001",
+    "title": "Lättlagad Räksallad med Avocado och Citron",
+    "cate
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torskrygg med dillstuvad spetskål",
+"category": "Skaldjur",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torskrygg med dillstuvad spetskål",
+"category": "Skaldjur",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad lax med dillstuvad blomkål",
+"category": "Skaldjur",
+"area": "Swed
+  +10 (total AI:372, all:1038)
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill- och citronkvarg",
+"category": "Skaldjur",
+"area": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torsk med örtstekt spenat",
+"category": "Skaldjur",
+"area": "Swedi
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättgravad lax med dill och citronpeppar",
+"category": "Skaldjur",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad Torskrygg med Brynt Smör och Örter",
+"category": "Skaldjur",
+"area
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torskrygg med dillstuvad sparris",
+"category": "Skaldjur",
+"area":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad Lax med Dillstuvad Spenat",
+"category": "Skaldjur",
+"area": "Swedi
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torsk med örtagårdssallad",
+"category": "Skaldjur",
+"area": "Swedi
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättrimmad torskrygg med dillstuvade grönsaker",
+"category": "Skaldjur",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill och citron",
+"category": "Skaldjur",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill och citron",
+"category": "Skaldjur",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättlagad gravad lax med dill och citron",
+"category": "Skaldjur",
+"area": "S
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättkokta räkor med dill och citron",
+"category": "Skaldjur",
+"area": "Swedis
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Lättgravad lax med rödbetssallad",
+    "category": "Skaldjur",
+   
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Lättgräddad torsk med dill och citron",
+"category": "Skaldjur",
+"area": "Swed
+  +10 (total AI:382, all:1048)
+
+📁 Meal Prep: generating 22...
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med grönkål och äpple",
+    "category": 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med kikärtor och spenat",
+"category": "Meal Prep",
+"area": "Swe
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kycklinggryta med Quinoa och Grönsaker",
+    "category": "Meal Prep
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med grönkål och citronvinägrett",
+"category": "Mea
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron- och örtvinägrett",
+"category": "Meal P
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rödbetor och fetaost",
+    "category
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoabollar och spenat",
+"category": "Meal Prep",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade grönsaker",
+"category": "Meal Prep",
+"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med spenat och soltorkade tomater",
+"category": "Meal Prep",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron-örtsås",
+"category": "Meal Prep",
+"area
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": "mealswed01",
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Sötpotatis- och linsgryta med spenat",
+    "category": "Meal Prep",
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoa och grönkål",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade grönsaker",
+"category": "Meal Prep",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotsaker",
+    "category": "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citron-örtsås",
+    "category": "Mea
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kikärts- och spenatgryta med quinoa",
+    "category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostad paprika",
+"category": "Meal Prep",
+"are
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citron-örtsås",
+    "category": "Mea
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kycklinggryta med quinoabotten",
+    "category": "Meal Prep",
+    "
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kikärts- och spenatgryta med kokosmjölk",
+    "category": "Meal Pre
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron-örtdressing",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citron- och örtvinägrett",
+    "cate
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Nöt-fröiga quinoabollar med örter och soltorkade tomater",
+    "cat
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med quinoasallad och rostade rotfrukter",
+    "category": 
+  +10 (total AI:392, all:1058)
+  ✗ JSON parse failed: [
+{
+  "id": 1,
+  "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+  "category": "Meal P
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kycklinggryta med kikärtor och spenat",
+    "category": "Meal Prep"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoa och grönkål",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kallrökt lax med dillkvarg och rotfruktsrullar",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoasallad",
+"category": "Meal Prep",
+"area": "Swedish",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med äpple och rostad pumpa",
+    "catego
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med grönkål och citron",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citronörtsdressing",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kall rökt lax och dillkvarg",
+"category": "Meal Prep",
+"area": "Swedish",
+"in
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kalljästa fröknäcke med avokadoröra",
+"category": "Meal Prep",
+"area": "Swedi
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citronörtsdressing",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoa och spenat",
+"category": "Meal Prep",
+"area": "Swedi
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kallrökt lax med dillkvarg och rostad blomkål",
+    "category": "M
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kalljästa havregrynsgröt med bär och nötter",
+"category": "Meal Prep",
+"area"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med äppelcidervinägerdressing",
+"category": "Meal 
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoa bowls med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kikärts- och spenatcurry med fullkornsris",
+    "category": "Meal P
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med äppelcidervinägerdressing",
+    "cat
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Sötpotatis- och linsgryta med spenat",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kylling- och quinoasallad med rucola och hallon",
+"category": "Meal Prep",
+"a
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotsaker",
+    "category": "
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med örter",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron-örtsås",
+"category": "Middag",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kallpressad grönkåls- och quinoasallad med citronvinägrett",
+"category": "Mea
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citronörtsdressing",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med äpple och ingefära",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och grönsakslåda med quinoa",
+"category": "Meal Prep",
+"area": "Swe
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade grönsaker",
+"category": "Meal Prep",
+"
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kycklingfärsbiffar med quinoasallad och örtdressing",
+    "category
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citron-örtsås",
+    "category": "Mea
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Svensk quinoasallad med rödbetor och getost",
+"category": "Meal Prep",
+"area"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rödbetor och getost",
+"category": "Meal Prep",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med äppelcidervinägerdressing",
+    "cat
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoa och grönkål",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron- och örtyoghurt",
+"category": "Meal Pre
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rotfrukter",
+"category": "Meal Prep",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kikärts- och spenatgryta med kokos",
+"category": "Meal Prep",
+"area": "Swedis
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotsaker",
+"category": "Meal Prep",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kall Kyckling- och Quinoasallad med Citron-örtdressing",
+"category": "Meal Pr
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kikärts- och spenatgryta med kokosmjölk",
+    "category": "Meal Pre
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Grundrecept på Hälsosam Kycklinggryta med Kikärter",
+"category": "Meal Prep",
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kikärts- och spenatcurry med quinoa",
+    "category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Sötpotatis- och linsgryta med spenat",
+"category": "Meal Prep",
+"area": "Swed
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ No JSON array: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med örtdressing",
+"category": "Meal Prep",
+"area":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade grönsaker",
+    "category": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron- och örtvinägrett",
+"category": "Meal P
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citronörtsdressing",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med quinoabollar och spenat",
+"category": "Meal Prep",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citron- och örtdressing",
+"category": "Meal Pr
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling med quinoa och rostade grönsaker",
+    "category": "Meal P
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rostade rotfrukter",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med äppelcidervinägerdressing",
+"category": "Meal 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotsaker",
+"category": "Meal Prep",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostad paprika",
+"category": "Meal Prep",
+"are
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotsaker",
+"category": "Meal Prep",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med örtig citrondressing",
+"category": "Meal Prep"
+  ✗ JSON parse failed: [
+  {
+    "id": "1",
+    "title": "Kyckling- och quinoasallad med citron- och örtyoghurt",
+    "cate
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotsaker",
+"category": "Meal Prep",
+"a
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Måltidsförbe
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med örtdressing",
+"category": "Meal Prep",
+"area":
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citron- och örtdressing",
+    "categ
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Nötig quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kycklinggryta med kikärtor och spenat",
+"category": "Meal Prep",
+"area": "Swe
+  ✗ JSON parse failed: 
+[
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med rödbetor och äpple",
+    "category"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kryddig linssoppa med kokos och spenat",
+"category": "Meal Prep",
+"area": "Sw
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med citronbalsamico",
+"category": "Meal Prep",
+"ar
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och Quinoasallad med Rostade Rotfrukter",
+"category": "Meal Prep",
+
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med grönkål och granatäpple",
+"category": "Meal Pr
+  +10 (total AI:402, all:1068)
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoasallad med citronörtsdressing",
+    "category":
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rotfrukter",
+"category": "Meal Prep",
+"area": 
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kallrökt laxbowl med quinoa och avokado",
+"category": "Meal Prep",
+"area": "S
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Kyckling- och quinoagryta med grönkål",
+    "category": "Meal Prep"
+  ✗ JSON parse failed: [
+{
+"id": 1,
+"title": "Kyckling- och quinoasallad med rostade rotfrukter",
+"category": "Meal Prep",
+
+  +10 (total AI:412, all:1078)
+
+📁 Frukost: generating 22...
+  +10 (total AI:422, all:1088)
+  +9 (total AI:431, all:1097)
+  ✗ JSON parse failed: [
+  {
+    "id": 1,
+    "title": "Havregrynsgröt med bär och nötter",
+    "category": "Frukost",
+    
+  +10 (total AI:441, all:1107)

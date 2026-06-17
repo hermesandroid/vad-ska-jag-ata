@@ -39,13 +39,36 @@ body{
 .tab-content.active{display:block}
 
 /* Browse */
-.browse-search{margin-bottom:14px}
-.browse-search input{
-  width:100%;padding:14px 18px;border-radius:16px;border:1px solid rgba(255,255,255,.08);
-  background:rgba(255,255,255,.03);color:#fff;font-size:.95em;font-family:inherit;outline:none
-}
+.browse-search{margin-bottom:12px}
+.browse-search input{width:100%;padding:14px 18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);color:#e8e8ec;font-size:.95em;outline:none}
 .browse-search input:focus{border-color:#ff6b6b}
-.browse-search input::placeholder{color:#444}
+
+/* === ROULETTE === */
+#tab-roulette{text-align:center;padding:10px 0}
+.wheel-wrap{position:relative;width:280px;height:280px;margin:0 auto 20px}
+.wheel-pointer{position:absolute;top:-18px;left:50%;transform:translateX(-50%);z-index:5;font-size:2rem;filter:drop-shadow(0 2px 4px #000);line-height:1}
+.wheel{width:100%;height:100%;border-radius:50%;position:relative;overflow:hidden;
+  border:4px solid rgba(255,255,255,.15);box-shadow:0 0 40px rgba(255,107,107,.2),inset 0 0 30px rgba(0,0,0,.3);
+  transition:transform 4s cubic-bezier(.17,.67,.12,.99)}
+.wheel-seg{position:absolute;width:50%;height:50%;top:0;left:50%;transform-origin:0% 100%;overflow:hidden}
+.wheel-seg-inner{position:absolute;top:-1px;left:0;width:200%;height:100%;display:flex;align-items:flex-start;justify-content:center;padding-top:18%}
+.wheel-label{font-size:.65rem;font-weight:600;color:#fff;text-shadow:0 1px 2px #000;
+  transform:rotate(0deg);text-align:center;line-height:1.2;pointer-events:none}
+
+.roulette-result{margin-top:20px;animation:fadeUp .5s ease-out}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.roulette-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;
+  padding:20px;text-align:left;cursor:pointer;transition:border-color .2s}
+.roulette-card:hover{border-color:rgba(255,107,107,.3)}
+.roulette-card img{width:100%;border-radius:12px;margin-bottom:12px;max-height:180px;object-fit:cover}
+.roulette-card h3{font-size:1.1rem;margin-bottom:6px;color:#ffd93d}
+
+.btn-spin{font-size:1.3rem;font-weight:700;padding:16px 48px;border:none;border-radius:16px;
+  background:linear-gradient(135deg,#ff6b6b,#ffd93d);color:#1a1a2e;cursor:pointer;
+  box-shadow:0 4px 20px rgba(255,107,107,.3);transition:transform .1s,box-shadow .1s;
+  -webkit-tap-highlight-color:transparent}
+.btn-spin:active{transform:scale(.95);box-shadow:0 2px 10px rgba(255,107,107,.2)}
+.btn-spin:disabled{opacity:.5;pointer-events:none}
 
 .cat-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .cat-chip{padding:6px 14px;border-radius:20px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);font-size:.78em;cursor:pointer;color:#888;transition:all .2s}
@@ -169,6 +192,7 @@ footer{text-align:center;padding:30px;color:#333;font-size:.75em;position:relati
   <div class="tabs">
     <div class="tab active" onclick="switchTab('ai')">🤖 AI Generera</div>
     <div class="tab" onclick="switchTab('browse')">📖 Bläddra</div>
+    <div class="tab" onclick="switchTab('roulette')">🎰 Roulette</div>
   </div>
 
   <!-- AI Tab -->
@@ -206,6 +230,16 @@ footer{text-align:center;padding:30px;color:#333;font-size:.75em;position:relati
     </div>
   </div>
 
+  <!-- Roulette Tab -->
+  <div class="tab-content" id="tab-roulette">
+    <div class="wheel-wrap">
+      <div class="wheel-pointer">▼</div>
+      <div class="wheel" id="rouletteWheel"></div>
+    </div>
+    <button class="btn-spin" id="btnSpin" onclick="spinRoulette()">🎰 SPIN</button>
+    <div class="roulette-result" id="rouletteResult"></div>
+  </div>
+
   <footer>AI · DeepSeek · TheMealDB · Hermes</footer>
 </div>
 
@@ -214,10 +248,14 @@ footer{text-align:center;padding:30px;color:#333;font-size:.75em;position:relati
 <script>
 // === TABS ===
 function switchTab(name){
-  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.textContent.includes(name==='ai'?'AI':'Bläddra')));
+  document.querySelectorAll('.tab').forEach(t=>{
+    const tName = t.textContent.includes('AI')?'ai':t.textContent.includes('Bläddra')?'browse':'roulette';
+    t.classList.toggle('active',tName===name);
+  });
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
   if(name==='browse' && !allRecipes.length) loadRecipes();
+  if(name==='roulette'){ if(!allRecipes.length) loadRecipes().then(buildWheel); else buildWheel(); }
 }
 
 // === AI MODE ===
@@ -258,10 +296,56 @@ function filterRecipes(){const q=document.getElementById('browseSearch').value.t
 const HEALTHY_KEYWORDS=['salad','sallad','soppa','soup','grill','bake','steam','wok','vegetarian','vegan','gluten','low','light','fresh','grön','fisk','fish','chicken','kyckling','kalkon','turkey','quinoa','linser','lentil','bönor','bean','tofu','tempeh','avocado','spenat','spinach','broccoli','lax','salmon','tonfisk','tuna','råris','brown rice','fullkorn','whole','grekisk','greek','medelhav','mediterranean','morot','carrot','sötpotatis','sweet potato','zucchini'];
 function isHealthy(r){const txt=(r.title+' '+(r.tags||'')+' '+r.category).toLowerCase();return HEALTHY_KEYWORDS.some(k=>txt.includes(k))}
 
-function renderGrid(){const grid=document.getElementById('recipesGrid');if(!filteredRecipes.length){grid.innerHTML='<div class="placeholder"><span class="emoji">🔍</span>Inga recept hittades</div>';return}grid.innerHTML=filteredRecipes.slice(0,200).map(r=>`<div class="recipe-card" onclick="showDetail('${r.id}')"><img src="${r.thumb}/preview" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect fill=%22%231a1a2e%22 width=%22200%22 height=%22150%22/><text fill=%22%23555%22 x=%22100%22 y=%2280%22 text-anchor=%22middle%22 font-size=%2230%22>🍽️</text></svg>'"><div class="info"><div class="title">${r.title}</div><div class="cat">${r.category} · ${r.area}</div></div></div>`).join('')}
+function renderGrid(){const grid=document.getElementById('recipesGrid');if(!filteredRecipes.length){grid.innerHTML='<div class="placeholder"><span class="emoji">🔍</span>Inga recept hittades</div>';return}grid.innerHTML=filteredRecipes.slice(0,200).map(r=>{const t=r.thumb||'';const src=t.startsWith('thumbnails/')?t:t?t+'/preview':'';return`<div class="recipe-card" onclick="showDetail('${r.id}')"><img src="${src}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect fill=%22%231a1a2e%22 width=%22200%22 height=%22150%22/><text fill=%22%23555%22 x=%22100%22 y=%2280%22 text-anchor=%22middle%22 font-size=%2230%22>🍽️</text></svg>'"><div class="info"><div class="title">${r.title}</div><div class="cat">${r.category} · ${r.area}</div></div></div>`}).join('')}
 
-function showDetail(id){const r=allRecipes.find(x=>x.id===id);if(!r)return;const ingList=r.ingredients.map((ing,i)=>`<li>${r.measures[i]||''} ${ing}</li>`).join('');document.getElementById('modal').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal"><button class="close-btn" onclick="closeModal()">✕</button><img src="${r.thumb}" onerror="this.style.display='none'"><h2>${r.title}</h2><div class="meta"><span style="background:rgba(255,107,107,.15);color:#ff6b6b">📁 ${r.category}</span><span style="background:rgba(255,217,61,.1);color:#ffd93d">🌍 ${r.area}</span></div><h3>Ingredienser</h3><ul>${ingList}</ul><h3>Instruktioner</h3><p>${r.instructions}</p>${r.youtube?`<p style="margin-top:16px"><a href="${r.youtube}" target="_blank" style="color:#ff6b6b">📺 Se på YouTube</a></p>`:''}</div></div>`}
+function showDetail(id){const r=allRecipes.find(x=>x.id===id);if(!r)return;const ings=r.ingredients||[];const meas=r.measures||[];const ingList=ings.length?ings.map((ing,i)=>`<li>${meas[i]||''} ${ing}</li>`).join(''):(r.instructions?`<li>Se instruktioner nedan</li>`:'');document.getElementById('modal').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal"><button class="close-btn" onclick="closeModal()">✕</button><img src="${r.thumb||''}" onerror="this.style.display='none'"><h2>${r.title}</h2><div class="meta"><span style="background:rgba(255,107,107,.15);color:#ff6b6b">📁 ${r.category||'Okänd'}</span><span style="background:rgba(255,217,61,.1);color:#ffd93d">🌍 ${r.area||'?'}</span></div><h3>Ingredienser</h3><ul>${ingList}</ul><h3>Instruktioner</h3><p>${r.instructions||'Inga instruktioner'}</p>${r.youtube?`<p style="margin-top:16px"><a href="${r.youtube}" target="_blank" style="color:#ff6b6b">📺 Se på YouTube</a></p>`:''}</div></div>`}
 function closeModal(){document.getElementById('modal').innerHTML=''}
+
+// === ROULETTE ===
+const WHEEL_COLORS=['#ff6b6b','#ffd93d','#6bcb77','#4ecdc4','#a78bfa','#f472b6','#fb923c','#38bdf8'];
+let wheelRecipes=[],wheelAngle=0,rouletteSpinning=false;
+
+function buildWheel(){
+  const pool=allRecipes.filter(r=>r.thumb&&r.thumb.startsWith('http'));
+  wheelRecipes=pool.sort(()=>Math.random()-.5).slice(0,8);
+  const wheel=document.getElementById('rouletteWheel');
+  const segAngle=360/wheelRecipes.length;
+  wheel.innerHTML=wheelRecipes.map((r,i)=>{
+    const rot=i*segAngle;
+    const bg=WHEEL_COLORS[i%WHEEL_COLORS.length];
+    return `<div class="wheel-seg" style="transform:rotate(${rot}deg);background:${bg}">
+      <div class="wheel-seg-inner"><span class="wheel-label">${r.title.slice(0,22)}</span></div></div>`;
+  }).join('');
+  document.getElementById('rouletteResult').innerHTML='';
+  wheel.style.transform='rotate(0deg)';wheelAngle=0;
+}
+
+async function spinRoulette(){
+  if(rouletteSpinning||!wheelRecipes.length)return;
+  rouletteSpinning=true;
+  document.getElementById('btnSpin').disabled=true;
+  document.getElementById('rouletteResult').innerHTML='';
+  const wheel=document.getElementById('rouletteWheel');
+  const segAngle=360/wheelRecipes.length;
+  const targetIdx=Math.floor(Math.random()*wheelRecipes.length);
+  const fullSpins=5*360;
+  const extra=360-targetIdx*segAngle-segAngle/2;
+  const totalSpin=fullSpins+extra+(Math.random()-.5)*segAngle*.6;
+  wheelAngle+=totalSpin;
+  wheel.style.transform=`rotate(${wheelAngle}deg)`;
+
+  await new Promise(r=>setTimeout(r,4200));
+
+  const recipe=wheelRecipes[targetIdx];
+  document.getElementById('rouletteResult').innerHTML=
+    `<div class="roulette-card" onclick="showDetail('${recipe.id}')">
+      <img src="${recipe.thumb}/preview" onerror="this.style.display='none'">
+      <h3>${recipe.title}</h3>
+      <div style="color:#888;font-size:.85em">${recipe.category} · ${recipe.area}</div>
+    </div>`;
+  rouletteSpinning=false;
+  document.getElementById('btnSpin').disabled=false;
+}
 </script>
 </body>
 </html>
